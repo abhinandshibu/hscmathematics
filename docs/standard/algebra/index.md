@@ -1,0 +1,7 @@
+---
+title: Algebra
+---
+
+# Algebra
+
+YAY!
