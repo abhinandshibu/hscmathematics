@@ -7,12 +7,12 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'HSC Mathematics',
-  tagline: 'Nice',
-  url: 'https://github.com/claytonpollard',
+  tagline: 'Updated Weekly',
+  url: 'https://www.hscmathematics.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
   organizationName: 'claytonpollard', // Usually your GitHub org/user name.
   projectName: 'mathematics-website', // Usually your repo name.
 
@@ -26,6 +26,8 @@ const katex = require('rehype-katex');
           routeBasePath: '/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          showLastUpdateTime: true,
+          // showLastUpdateAuthor: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,15 +49,15 @@ const katex = require('rehype-katex');
     ({
       navbar: {
         title: 'HSC Mathematics',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         hideOnScroll: true,
         items: [
           {
             type: 'doc',
-            docId: 'standard/index',
+            docId: 'standard/syllabus/y11',
             position: 'left',
             label: 'Standard',
           },
@@ -90,19 +92,31 @@ const katex = require('rehype-katex');
           {
             title: 'Mathematics',
             items: [
-              // {
-              //   label: 'Tutorial',
-              //   to: '/docs/intro',
-              // },
+              {
+                label: 'Standard',
+                to: '/standard/',
+              },
+              {
+                label: 'Advanced',
+                to: '/advanced/',
+              },
+              {
+                label: 'Extension 1',
+                to: '/extension1/',
+              },
+              {
+                label: 'Extension 2',
+                to: '/extension2/',
+              },
             ],
           },
           {
-            title: 'Useful Resources',
+            title: 'Useful Sites',
             items: [
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
+              {
+                label: 'Practice papers',
+                href: 'https://thsconline.github.io',
+              },
               // {
               //   label: 'Discord',
               //   href: 'https://discordapp.com/invite/docusaurus',
@@ -113,19 +127,19 @@ const katex = require('rehype-katex');
               // },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
-              // {
-              //   label: 'GitHub',
-              //   href: 'https://github.com/facebook/docusaurus',
-              // },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
         // copyright: `© ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },

@@ -1,4 +1,8 @@
 {
   "label": "MS-A2 Linear Relationships",
-  "position": 2
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Linear Relationships"
+  }
 }

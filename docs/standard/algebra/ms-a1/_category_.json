@@ -1,4 +1,8 @@
 {
   "label": "MS-A1 Formulae and Equations",
-  "position": 1
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Formulae and Equations"
+  }
 }
