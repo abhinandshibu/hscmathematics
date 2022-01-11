@@ -1,8 +1,4 @@
 {
   "label": "Syllabus",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "title": "Syllabus"
-  }
+  "position": 1
 }

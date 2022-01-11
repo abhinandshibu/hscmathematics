@@ -25,7 +25,7 @@ const katex = require('rehype-katex');
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           remarkPlugins: [math],
-          rehypePlugins: [katex],
+          rehypePlugins: [katex, {trust: true}],
           showLastUpdateTime: true,
           // showLastUpdateAuthor: true,
         },

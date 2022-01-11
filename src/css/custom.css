@@ -4,6 +4,22 @@
  * work well for content-centric websites.
  */
 
+ @font-face {
+  font-family: 'casio';
+  src: url('/font/ES03.ttf');
+}
+
+.casio {
+  font-family: "casio", sans-serif;
+  font-size: 110%;
+}
+
+.lnk {
+  height: 60px;
+  width: 60px;
+}
+
+/* <p>How to find the prime factorisation of 63 on your calculator: <span className="casio">63=qx</span></p> */
 
 /* You can override the default Infima variables here. */
 :root {
@@ -26,9 +42,4 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
-}
-
-@font-face {
-  font-family: 'casio';
-  src: url('/font/ES03.ttf') format('ttf');
 }
