@@ -4,10 +4,6 @@
  * work well for content-centric websites.
  */
 
- @font-face {
-  font-family: 'casio';
-  src: url('/font/ES03.ttf') format('ttf');
-}
 
 /* You can override the default Infima variables here. */
 :root {
@@ -30,4 +26,9 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: 'casio';
+  src: url('/font/ES03.ttf') format('ttf');
 }
