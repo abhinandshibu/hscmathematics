@@ -94,7 +94,7 @@ const katex = require('rehype-katex');
             items: [
               {
                 label: 'Standard',
-                to: '/standard/',
+                to: 'standard/syllabus/y11',
               },
               {
                 label: 'Advanced',
