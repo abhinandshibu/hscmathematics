@@ -1,0 +1,81 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+ @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+ @font-face {
+   font-family: 'Material Icons';
+   font-style: normal;
+   font-weight: 400;
+   src: url(https://fonts.gstatic.com/s/materialicons/v118/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+ }
+ 
+ .material-icons {
+   font-family: 'Material Icons';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 1;
+   letter-spacing: normal;
+   text-transform: none;
+   display: inline-block;
+   white-space: nowrap;
+   word-wrap: normal;
+   direction: ltr;
+   -webkit-font-smoothing: antialiased;
+ }
+
+ @font-face {
+  font-family: 'casio';
+  src: url('/font/ES03.ttf');
+}
+
+.casio * {
+  font-family: "casio", sans-serif !important;
+  font-size: 110%;
+}
+
+/* <p>How to find the prime factorisation of 63 on your calculator: <span className="casio">63=qx</span></p> */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3578e5;
+  --ifm-color-primary-dark: #1d68e1;
+  --ifm-color-primary-darker: #1b62d4;
+  --ifm-color-primary-darkest: #1751af;
+  --ifm-color-primary-light: #4e89e8;
+  --ifm-color-primary-lighter: #5a91ea;
+  --ifm-color-primary-lightest: #80aaef;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.admonition-definition {
+  background-color: rgba(0, 101, 145, 0.05);
+  border-radius: 5px;
+  /* border: 1px solid #006591; */
+  border-left: 6px solid #006591;
+  color: var(--ifm-font-color-base);
+  padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+  .admonition-icon svg {
+    width: 30px;
+    height: 30px;
+  }
+  .admonition-heading {
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+}
