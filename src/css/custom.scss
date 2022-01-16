@@ -79,3 +79,46 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     padding-left: 5px;
   }
 }
+
+.admonition-hint {
+  background-color: rgba(0, 101, 145, 0.05);
+  border-radius: 5px;
+  /* border: 1px solid #006591; */
+  border-left: 6px solid #006591;
+  color: var(--ifm-font-color-base);
+  padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+  .admonition-icon svg {
+    width: 30px;
+    height: 30px;
+  }
+  .admonition-heading {
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+}
+
+.admonition-answer {
+  background-color: rgba(0, 101, 145, 0.05);
+  border-radius: 5px;
+  /* border: 1px solid #006591; */
+  border-left: 6px solid #006591;
+  color: var(--ifm-font-color-base);
+  padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+  .admonition-icon svg {
+    width: 30px;
+    height: 30px;
+  }
+  .admonition-heading {
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+}
+
+// .menu__link:not([href]) {
+//   margin-top: 2rem;
+//   margin-bottom: 0.5rem;
+//   color: #888;
+//   font-weight: bold;
+//   text-transform: uppercase;
+//   font-size: 90%;
+// }
