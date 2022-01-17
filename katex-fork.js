@@ -34,9 +34,7 @@ function rehypeKatex(options) {
       let result = '';
 
       try {
-        result = katex.renderToString(value, { ...settings, displayMode, throwOnError: true });
-        // if (value.includes('\\html'))
-        //   console.log(result)
+        result = katex.renderToString(value, { ...settings, trust: true, displayMode, throwOnError: true });
       } catch (error) {
         const fn = throwOnError ? 'fail' : 'message';
         const origin = [source, error.name.toLowerCase()].join(':');
@@ -45,6 +43,7 @@ function rehypeKatex(options) {
 
         result = katex.renderToString(value, {
           ...settings,
+          trust: true,
           displayMode,
           throwOnError: false,
         });

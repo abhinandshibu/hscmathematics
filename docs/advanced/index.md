@@ -15,12 +15,10 @@ import IconPresentation from '@site/src/components/IconPresentation';
 $$
 \begin{aligned}
 \cos\theta&=\dfrac{3}{5}\\
-\theta&=\cos^{-1}\left(\dfrac{3}{5}\right)&&{\htmlClass{casio}{qk3P5)=}}\\
+\theta&=\cos^{-1}\left(\dfrac{3}{5}\right)&&{\text{\htmlClass{casio}{qk3P5)=}}}\\
 \theta&=53.1^\circ \text{\ (1 d.p.)}
 \end{aligned}
 $$
-
-$$\htmlClass{casio}{abc)$$
 
 :::definition
 
