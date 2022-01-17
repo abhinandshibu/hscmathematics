@@ -35,7 +35,10 @@ export default function Home(): JSX.Element {
       >
       <HomepageHeader />
       <main>
+        <br></br>
+        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center',}}><h1>Look out for these icons!</h1></div>
         <HomepageFeatures />
+        
       </main>
     </Layout>
   );
