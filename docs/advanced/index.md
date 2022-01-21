@@ -8,9 +8,12 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import IconExternalLink from '@theme/IconExternalLink';
 import IconPresentation from '@site/src/components/IconPresentation';
+import ExampleButtons from '@site/src/components/ExampleButtons';
+
 
 # Syllabus<a to="https://www.google.com/"><IconExternalLink /></a><a target="\_blank" href='/pres/c_quadratic-functions.html'><IconPresentation/></a>
 
+<IconPlay />
 
 $$
 \begin{aligned}
@@ -25,6 +28,32 @@ $$
 test
 
 :::
+
+:::hint
+
+test
+
+:::
+
+<ExampleButtons
+    hint={<div> hint here </div>}
+    answer={<div> answer here </div>}
+    solution={'http://www.google.com/'}
+/>
+
+<!-- <div>
+<Hint>
+
+type in my hint here
+
+</Hint>
+
+<Answer>
+
+type in my answer here
+
+</Answer>
+</div> -->
 
 <!-- <Tabs>
 <TabItem value="q1" label="Question 1" default>
