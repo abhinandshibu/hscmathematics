@@ -7,7 +7,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-function IconExternalLink({width = 13.5, height = 13.5}) {
+function IconExternalLink({width = 18.5, height = 18.5}) {
   return (
     <svg
     width={width}

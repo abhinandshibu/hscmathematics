@@ -38,30 +38,30 @@ export default function Home(): JSX.Element {
         <br></br>
         <div style={{display: 'flex',  justifyContent:'center', alignItems:'center',}}><h1>Look out for these icons!</h1></div>
         <HomepageFeatures />
-        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center',}}><h1>Get started</h1></div><br></br>
-        <div className={styles.buttons}>
+        {/* <div style={{display: 'flex',  justifyContent:'center', alignItems:'center',}}><h1>Get started</h1></div><br></br>
+        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center',}} className={"styles.buttons"}>
           <Link
             className="button button--primary button--lg"
             to="/standard/syllabus/y11">
             Standard
           </Link>&nbsp;&nbsp;&nbsp;
           <Link
-            className="button button--secondary button--lg"
+            className="button button--success button--lg"
             to="/advanced">
             Advanced
           </Link>&nbsp;&nbsp;&nbsp;
           <Link
-            className="button button--secondary button--lg"
+            className="button button--info button--lg"
             to="/extension1">
             Extension 1
           </Link>&nbsp;&nbsp;&nbsp;
           <Link
-            className="button button--secondary button--lg"
+            className="button button--warning button--lg"
             to="/extension2">
             Extension 2
           </Link>
         </div>
-        <br></br>
+        <br></br> */}
       </main>
     </Layout>
   );
