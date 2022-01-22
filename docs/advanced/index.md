@@ -2,7 +2,12 @@
 sidebar_position: 1
 title: Syllabus
 hide_title: true
+tags: [syllabus]
 ---
+
+<div className="alert alert--warning margin-bottom--md">
+  This page is still incomplete.
+</div>
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

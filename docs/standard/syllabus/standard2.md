@@ -1,16 +1,22 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 title: Standard 2
+hide_title: true
 tags: [syllabus]
 ---
+
 import IconExternalLink from '@theme/IconExternalLink';
 import Definition from '@site/src/components/Definition';
 
-# Standard 2 Syllabus
+<div className="alert alert--warning margin-bottom--md">
+  This page is still incomplete.
+</div>
 
-## Algebra<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a>
+# Standard 2 Syllabus<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a>
 
-### MS-A1 Formulae and Equations<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1214"><IconExternalLink /></a>
+## Algebra
+
+### MS-A1 Formulae and Equations<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1214"><IconExternalLink /></a><span id="year-11">Year 11</span>
 
 * review substitution of numerical values into linear and non-linear algebraic expressions and equations
     * review evaluating the subject of a formula, given the value of other pronumerals in the formula
@@ -18,7 +24,7 @@ import Definition from '@site/src/components/Definition';
     * solve problems involving formulae, including calculating distance, speed and time (with change of units of measurement as required) or calculating stopping distances of vehicles using a suitable formula
 * develop and solve linear equations, including those derived from substituting values into a formula, or those developed from a word description
 * calculate and interpret <Definition word={'blood alcohol content (BAC)'} definition={'Blood alcohol content measures the amount of alcohol present in the bloodstream, and may be used for legal purposes. -NESA'}/> based on drink consumption and body weight
-    * use formulae, both in word form and algebraic form, to calculate an estimate for blood alcohol content $(BAC)$, including $BAC_{Male} = \frac{10N-7.5H}{6.8M}$ and $BAC_{Female} = \frac{10N-7.5H}{5.5M}$ where $N$ is the number of <Definition word={'standard drinks'} definition={'A drink that contains 10 grams of alcohol is called a standard drink. -NESA'}/> consumed, $H$ is the number of hours of drinking, and $M$ is the person's weight in kilograms
+    * use formulae, both in word form and algebraic form, to calculate an estimate for blood alcohol content $(\mathit{BAC})$, including $BAC_{Male} = \frac{10N-7.5H}{6.8M}$ and $BAC_{Female} = \frac{10N-7.5H}{5.5M}$ where $N$ is the number of <Definition word={'standard drinks'} definition={'A drink that contains 10 grams of alcohol is called a standard drink. -NESA'}/> consumed, $H$ is the number of hours of drinking, and $M$ is the person's weight in kilograms
     * determine the number of hours required for a person to stop consuming alcohol in order to reach zero BAC, eg using the formula $\text{time}=\frac{BAC}{0.015}$
     * describe limitations of methods estimating BAC
 * calculate required medication dosages for children and adults from packets, given age or weight, using Fried's, Young's or Clark's formula as appropriate
