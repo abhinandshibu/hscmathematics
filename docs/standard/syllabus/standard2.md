@@ -1,12 +1,12 @@
 ---
-sidebar_position: 1
-title: Year 11 Standard
-hide_title: true
+sidebar_position: 2
+title: Standard 2
+tags: [syllabus]
 ---
 import IconExternalLink from '@theme/IconExternalLink';
 import Definition from '@site/src/components/Definition';
 
-# Year 11 Standard
+# Standard 2 Syllabus
 
 ## Algebra<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a>
 

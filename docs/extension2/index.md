@@ -1,13 +1,14 @@
 ---
 sidebar_position: 1
 title: Syllabus
+tags: [syllabus]
 ---
 
-# Year 12 Extension 2
+# Extension 2 Syllabus
 
 ## Proof
 
-### MEX-P1 The Nature of Proof
+### MEX-P1 The Nature of Proof<span id="year-12">Year 12</span>
 
 * use the formal language of proof, including the terms statement, implication, converse, negation and contrapositive
     * use the symbols for implication $(\Rightarrow)$, equivalence ($\Leftrightarrow$) and equality ($=$), demonstrating a clear understanding of the difference between them
@@ -23,7 +24,7 @@ title: Syllabus
     * establish and use the relationship between the arithmetic mean and geometric mean for two non-negative numbers
 * prove further results involving inequalities by logical use of previously obtained inequalities
 
-### MEX-P2 Further Proof by Mathematical Induction
+### MEX-P2 Further Proof by Mathematical Induction<span id="year-12">Year 12</span>
 
 * prove results using mathematical induction where the initial value of $n$ is greater than 1, and/or $n$ does not increase strictly by 1, for example prove that $n^2+2n$ is a multiple of 8 if $n$ is an even positive integer
 * understand and use sigma notation to prove results for sums, for example:  
@@ -39,7 +40,7 @@ $\displaystyle{\sum_{n=1}^N\frac{1}{(2n+1)(2n-1)}=\frac{N}{2N+1}}$
 
 ## Vectors
 
-### MEX-V1 Further Work with Vectors
+### MEX-V1 Further Work with Vectors<span id="year-12">Year 12</span>
 
 #### V1.1: Introduction to three-dimensional vectors
 
@@ -73,7 +74,7 @@ $\displaystyle{\sum_{n=1}^N\frac{1}{(2n+1)(2n-1)}=\frac{N}{2N+1}}$
 
 ## Complex Numbers
 
-### MEX-N1 Introduction to Complex Numbers
+### MEX-N1 Introduction to Complex Numbers<span id="year-12">Year 12</span>
 
 #### N1.1: Arithmetic of complex numbers
 
@@ -119,7 +120,7 @@ $\displaystyle{\sum_{n=1}^N\frac{1}{(2n+1)(2n-1)}=\frac{N}{2N+1}}$
 geometrically
 * solve problems involving complex numbers in a variety of forms
 
-### MEX-N2 Using Complex Numbers
+### MEX-N2 Using Complex Numbers<span id="year-12">Year 12</span>
 
 #### N2.1: Solving equations with complex numbers
 
@@ -146,7 +147,7 @@ geometrically
 
 ## Calculus
 
-### MEX-C1 Further Integrration
+### MEX-C1 Further Integrration<span id="year-12">Year 12</span>
 
 * find and evaluate indefinite and definite integrals using the method of integration by substitution,
 where the substitution may or may not be given
@@ -162,7 +163,7 @@ combination of both, into partial fractions
 
 ## Mechanics
 
-### MEX-M1 Applications of Calculus to Mechanics
+### MEX-M1 Applications of Calculus to Mechanics<span id="year-12">Year 12</span>
 
 #### M1.1: Simple harmonic motion
 

@@ -156,3 +156,28 @@ html[data-theme='dark'] {
   --ifm-background-surface-color: #121212;
 }
 
+#year-11 {
+  vertical-align: middle;
+  width: fit-content;
+  border: .1rem solid var(--ifm-color-primary);
+  background-color: var(--ifm-color-primary);
+  border-radius: .5rem;
+  padding: .1rem .2rem;
+  margin: .5rem;
+  font-size: x-small;
+  color: white;
+  white-space: nowrap;
+}
+
+#year-12 {
+  vertical-align: middle;
+  width: fit-content;
+  border: .1rem solid var(--ifm-color-danger);
+  background-color: var(--ifm-color-danger);
+  border-radius: .5rem;
+  padding: .1rem .2rem;
+  margin: .5rem;
+  font-size: x-small;
+  color: white;
+  white-space: nowrap;
+}

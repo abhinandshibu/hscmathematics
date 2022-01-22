@@ -80,7 +80,7 @@ const katex = require('./katex-fork.js');
         items: [
           {
             type: 'doc',
-            docId: 'standard/syllabus/y11',
+            docId: 'standard/syllabus/standard2',
             position: 'left',
             label: 'Standard',
           },
@@ -117,7 +117,7 @@ const katex = require('./katex-fork.js');
             items: [
               {
                 label: 'Standard',
-                to: 'standard/syllabus/y11',
+                to: 'standard/syllabus/standard2',
               },
               {
                 label: 'Advanced',
