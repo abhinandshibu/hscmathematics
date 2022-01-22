@@ -29,7 +29,7 @@ const katex = require('./katex-fork.js');
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           remarkPlugins: [math],
-          rehypePlugins: [katex, {strict: 'ignore', trust: true}],
+          rehypePlugins: [katex, {trust: true}],
           showLastUpdateTime: true,
           admonitions: {
             customTypes: {
