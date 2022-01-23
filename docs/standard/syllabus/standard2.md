@@ -35,7 +35,7 @@ import Definition from '@site/src/components/Definition';
 ### MS-A2 Linear Relationships
 
 * model, analyse and solve problems involving linear relationships, including constructing a straight-line graph and interpreting features of a straight-line graph, including the gradient and intercepts
-    * recognise that a <Definition word={'direct variation'} definition={'Two variables are in direct variation if one is a constant multiple of the other. This can be represented by the equation y=kx, where k is the constant of variation (or proportion). Also known as direct proportion, it produces a linear graph through the origin. -NESA'}/> relationship produces a straight-line graph
+    * recognise that a <Definition word={'direct variation'} definition={'Two variables are in direct variation if one is a constant multiple of the other. This can be represented by the equation <span class="math-inline">y=kx</span>, where k is the constant of variation (or proportion). Also known as direct proportion, it produces a linear graph through the origin. -NESA'}/> relationship produces a straight-line graph
     * determine a direct variation relationship from a written description, a straight-line graph passing through the origin, or a linear function in the form $y=mx$
     * review the linear function $y=mx+c$ and understand the geometrical significance of $m$ and $c$
     * recognise the gradient of a direct variation graph as the <Definition word={'constant of variation'} definition={'Also known as the constant of proportionality. See direct or inverse variation.'}/>
