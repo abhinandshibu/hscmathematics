@@ -4,14 +4,16 @@ title: Syllabus
 tags: [syllabus]
 ---
 
-# Extension 2 Syllabus
+import IconExternalLink from '@theme/IconExternalLink';
+
+# Extension 2 Syllabus<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017"><IconExternalLink /></a>
 
 ## Proof
 
-### MEX-P1 The Nature of Proof<span id="year-12">Year 12</span>
+### MEX-P1 The Nature of Proof<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017/content/2690"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 * use the formal language of proof, including the terms statement, implication, converse, negation and contrapositive
-    * use the symbols for implication $(\Rightarrow)$, equivalence ($\Leftrightarrow$) and equality ($=$), demonstrating a clear understanding of the difference between them
+    * use the symbols for implication $(\implies)$, equivalence ($\iff$) and equality ($=$), demonstrating a clear understanding of the difference between them
     * use the phrases ‘for all’ ($\forall$), ‘if and only if’ (iff) and ‘there exists’ ($\exists$)
     * understand that a statement is equivalent to its contrapositive but that the converse of a true statement may not be true
 * prove simple results involving numbers
@@ -24,7 +26,7 @@ tags: [syllabus]
     * establish and use the relationship between the arithmetic mean and geometric mean for two non-negative numbers
 * prove further results involving inequalities by logical use of previously obtained inequalities
 
-### MEX-P2 Further Proof by Mathematical Induction<span id="year-12">Year 12</span>
+### MEX-P2 Further Proof by Mathematical Induction<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017/content/2693"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 * prove results using mathematical induction where the initial value of $n$ is greater than 1, and/or $n$ does not increase strictly by 1, for example prove that $n^2+2n$ is a multiple of 8 if $n$ is an even positive integer
 * understand and use sigma notation to prove results for sums, for example:  
@@ -40,7 +42,7 @@ $\displaystyle{\sum_{n=1}^N\frac{1}{(2n+1)(2n-1)}=\frac{N}{2N+1}}$
 
 ## Vectors
 
-### MEX-V1 Further Work with Vectors<span id="year-12">Year 12</span>
+### MEX-V1 Further Work with Vectors<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017/content/2699"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 #### V1.1: Introduction to three-dimensional vectors
 
@@ -74,7 +76,7 @@ $\displaystyle{\sum_{n=1}^N\frac{1}{(2n+1)(2n-1)}=\frac{N}{2N+1}}$
 
 ## Complex Numbers
 
-### MEX-N1 Introduction to Complex Numbers<span id="year-12">Year 12</span>
+### MEX-N1 Introduction to Complex Numbers<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017/content/2705"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 #### N1.1: Arithmetic of complex numbers
 
@@ -120,7 +122,7 @@ $\displaystyle{\sum_{n=1}^N\frac{1}{(2n+1)(2n-1)}=\frac{N}{2N+1}}$
 geometrically
 * solve problems involving complex numbers in a variety of forms
 
-### MEX-N2 Using Complex Numbers<span id="year-12">Year 12</span>
+### MEX-N2 Using Complex Numbers<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017/content/2708"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 #### N2.1: Solving equations with complex numbers
 
@@ -147,7 +149,7 @@ geometrically
 
 ## Calculus
 
-### MEX-C1 Further Integrration<span id="year-12">Year 12</span>
+### MEX-C1 Further Integrration<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017/content/2714"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 * find and evaluate indefinite and definite integrals using the method of integration by substitution,
 where the substitution may or may not be given
@@ -163,7 +165,7 @@ combination of both, into partial fractions
 
 ## Mechanics
 
-### MEX-M1 Applications of Calculus to Mechanics<span id="year-12">Year 12</span>
+### MEX-M1 Applications of Calculus to Mechanics<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017/content/2720"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 #### M1.1: Simple harmonic motion
 

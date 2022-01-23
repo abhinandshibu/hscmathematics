@@ -6,7 +6,7 @@ tags: [syllabus]
 ---
 
 <div className="alert alert--warning margin-bottom--md">
-  This page is still incomplete.
+  This page is incomplete.
 </div>
 
 # Extension 1 Syllabus
@@ -73,14 +73,60 @@ tags: [syllabus]
 
 * define and use the inverse trigonometric functions
     * understand and use the notation $\arcsin x$ and $\sin^-1 x$ for the inverse function of $\sin x$ when $-\frac{\pi}{2}\leq x\leq\frac{\pi}{2}$ (and similarly for $\cos x$ and  $\tan x$) and understand when each notation might be appropriate to avoid confusion with the reciprocal functions
+    * use the convention of restricting the domain of $\sin x$ to $-\frac{\pi}{2}\leq x\leq\frac{\pi}{2}$, so the inverse function exists. The inverse of this restricted sine function is defined by: $y=\sin^{-1} x$, $-1\leq x\leq1$ and $-\frac{\pi}{2}\leq y\leq\frac{\pi}{2}$
+    * use the convention of restricting the domain of $\cos x$ to $0\leq x\leq\pi$, so the inverse function exists. The inverse of this restricted cosine function is defined by: $y=\cos^{-1}x$, $-1\leq x\leq1$ and $0\leq y\leq\pi$
+    * use the convention of restricting the domain of $\tan x$ to $-\frac{\pi}{2}<x<\frac{\pi}{2}$,so the inverse function exists. The inverse of this restricted tangent function is defined by: $y=\tan^{-1}x$, $x$ is a real number and $-\frac{\pi}{2}<y<\frac{\pi}{2}$
+    * classify inverse trigonometric functions as odd, even or neither odd nor even
+* sketch graphs of the inverse trigonometric functions
+* use the relationships $\sin\left(\sin^{-1}x\right)=x$ and $\sin^{-1}\left(\sin x\right)=x$, $\cos\left(\cos^{-1}x\right)=x$ and $\cos^{-1}\left(\cos x\right)=x$, and $\tan\left(\tan^{-1}x\right)=x$ and $\tan^{-1}\left(\tan x\right)=x$ where appropriate, and state the values of $x$ for which these relationships are valid
+* prove and use the properties: $\sin^{-1}(-x)=-\sin^{-1}x$, $\cos^{-1}=\pi-\cos^{-1}x$, $\tan^{-1}(-x)=-\tan^{-1}x$ and $cos^{-1}x+\sin^{-1}x=\frac{\pi}{2}$
+* solve problems involving inverse trigonometric functions in a variety of abstract and practical situations
 
 ### ME-T2 Further Trigonometric Identities<span id="year-11">Year 11</span>
 
+* derive and use the sum and difference expansions for the trigonometric functions $\sin(A\pm B)$, $\cos(A\pm B)$ and $\tan(A\pm B)$
+    * $\sin(A\pm B)=\sin A\cos B\pm\cos A\sin B$
+    * $\cos(A\pm B)=\cos A\cos B\mp\sin A\sin B$
+    * $\tan(A\pm B)=\frac{\tan A\,\pm\,\tan B}{1\,\mp\,\tan A\tan B}$
+* derive and use the double angle formulae for $\sin2A$, $\cos2A$ and $\tan2A$
+    * $\sin2A=2\sin A\cos A$
+    * $\cos2A=\cos^2A-\sin^2A$  
+    $\qquad\quad=2\cos^2A-\sin^2A$  
+    $\qquad\quad=1-2\sin^2A$  
+    * $\tan2A=\frac{2\tan A}{1-\tan^2A}$
+* derive and use expressions for $\sin A$, $\cos A$ and $\tan A$ in terms of $t$ where $t=\tan\frac{A}{2}$ (the $t$-formulae)
+    * $\sin A=\frac{2t}{1+t^2}$
+    * $\cos A=\frac{1-t^2}{1+t^2}$
+    * $\tan A=\frac{2t}{1-t^2}$
+* derive and use the formulae for trigonometric products as sums and differences for $\cos A\cos B$, $\sin A\sin B$, $\sin A\cos B$ and $\cos A\sin B$
+    * $\cos A\cos B=\frac{1}{2}\left[\cos(A-B)+\cos(A+B)\right]$
+    * $\sin A\sin B=\frac{1}{2}\left[\cos(A-B)-\cos(A+B)\right]$
+    * $\sin A\cos B=\frac{1}{2}\left[\sin(A+B)+\sin(A-B)\right]$
+    * $\cos A\sin B=\frac{1}{2}\left[\sin(A+B)-\sin(A-B)\right]$
+
 ### ME-T3 Trigonometric Equations<span id="year-12">Year 12</span>
+
+* convert expressions of the form $a\cos x+b\sin x$ to $R\cos(x\pm\alpha)$ or $R\sin(x\pm\alpha)$ and apply these to solve equations of the form $a\cos x+b\sin x=c$, sketch graphs and solve related problems
+* solve trigonometric equations requiring factorising and/or the application of compound angle, double angle formulae or the $t$-formulae
+* prove and apply other trigonometric identities, for example $\cos3x=4\cos^3x-3\cos x$
+* solve trigonometric equations and interpret solutions in context using technology or otherwise
 
 ## Calculus
 
 ### ME-C1 Rates of Change<span id="year-11">Year 11</span>
+
+#### C1.1: Rates of change with respect to time
+
+* describe the rate of change of a physical quantity with respect to time as a derivative
+    * investigate examples where the rate of change of some aspect of a given object with respect to time can be modelled using derivatives
+    * use appropriate language to describe rates of change, for example 'at rest', 'initially', 'change of direction' and 'increasing at an increasing rate'
+* find and interpret the derivative $\dfrac{dQ}{dt}$, given a function in the form $Q=f(t)$, for the amount of a physical quantity present at time $t$
+* describe the rate of change with respect to time of the displacement of a particle moving along the $x$-axis as a derivative $\frac{dx}{dt}$ or $\dot{x}$
+* describe the rate of change with respect to time of the velocity of a particle moving along the $x$-axis as a derivative $\frac{d^2x}{dt^2}$ or $\ddot{x}$
+
+#### C1.2: Exponential growth and decay
+
+* construct, analyse and manipulate an exponential model of the form
 
 ### ME-C2 Further Calculus Skills<span id="year-12">Year 12</span>
 

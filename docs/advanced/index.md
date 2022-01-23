@@ -6,7 +6,7 @@ tags: [syllabus]
 ---
 
 <div className="alert alert--warning margin-bottom--md">
-  This page is still incomplete.
+  This page is incomplete.
 </div>
 
 import Tabs from '@theme/Tabs';
