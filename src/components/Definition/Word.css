@@ -1,0 +1,23 @@
+html[data-theme='light'] #word {
+  width: fit-content;
+  border: .1rem solid var(--ifm-color-secondary-darker);
+  background-color: var(--ifm-color-secondary);
+  border-radius: .5rem;
+  padding: .1rem .2rem;
+  font-size: 90%;
+  color: black;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+html[data-theme='dark'] #word {
+  width: fit-content;
+  border: .1rem solid var(--ifm-color-secondary);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: .5rem;
+  padding: .1rem .2rem;
+  font-size: 90%;
+  color: white;
+  white-space: nowrap;
+  cursor: pointer;
+}
