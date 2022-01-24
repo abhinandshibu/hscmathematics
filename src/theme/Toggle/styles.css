@@ -15,8 +15,8 @@
 
 .toggle:hover { 
   outline: none;
-  border-color: var(--ifm-color-primary-lighter);
-  box-shadow: 0 0 10px var(--ifm-color-primary-lighter);
+  border-color: var(--ifm-color-primary-darkest);
+  box-shadow: 0 0 10px var(--ifm-color-primary-darkest);
 }
 
 html[data-theme='dark'] .toggle:hover { 

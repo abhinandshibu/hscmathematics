@@ -21,3 +21,7 @@ html[data-theme='dark'] #word {
   white-space: nowrap;
   cursor: pointer;
 }
+
+.capitalize {
+  text-transform: capitalize;
+}

@@ -14,6 +14,7 @@ import TabItem from '@theme/TabItem';
 import IconExternalLink from '@theme/IconExternalLink';
 import IconPresentation from '@site/src/components/IconPresentation';
 import ExampleButtons from '@site/src/components/ExampleButtons';
+import Hint from '@site/src/components/Hint';
 
 
 # Syllabus<a to="https://www.google.com/"><IconExternalLink /></a><a target="\_blank" href='/pres/c_quadratic-functions.html'><IconPresentation/></a>
@@ -41,10 +42,22 @@ test
 :::
 
 <ExampleButtons
-    hint={<div> hint here </div>}
-    answer={<div> answer here </div>}
-    solution={'http://www.google.com/'}
-/>
+answer={<div>
+
+$$ax$$
+
+</div>}
+solution={'http://www.google.com/'}>
+
+$$ax$$
+
+</ExampleButtons>
+
+<Hint>
+
+$$ax$$
+
+</Hint>
 
 <!-- <div>
 <Hint>

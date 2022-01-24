@@ -1,11 +1,14 @@
 ---
 sidebar_position: 1
 title: Syllabus
-tags: [syllabus]
+hide_title: true
 ---
 
 import IconExternalLink from '@theme/IconExternalLink';
-import Definition from '@site/src/components/Definition';
+
+<div className="alert alert--warning margin-bottom--md">
+    There are no plans for Extension 2 content for 2022.
+</div>
 
 # Extension 2 Syllabus<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017"><IconExternalLink /></a>
 
@@ -13,7 +16,7 @@ import Definition from '@site/src/components/Definition';
 
 ### MEX-P1 The Nature of Proof<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-2-2017/content/2690"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
-* use the formal language of proof, including the terms <Definition word={'statement'} definition={'A statement is an assertion that can be true or false but not both.'}/>, implication, converse, negation and contrapositive
+* use the formal language of proof, including the terms statement, implication, converse, negation and contrapositive
     * use the symbols for implication $(\implies)$, equivalence ($\iff$) and equality ($=$), demonstrating a clear understanding of the difference between them
     * use the phrases ‘for all’ ($\forall$), ‘if and only if’ (iff) and ‘there exists’ ($\exists$)
     * understand that a statement is equivalent to its contrapositive but that the converse of a true statement may not be true

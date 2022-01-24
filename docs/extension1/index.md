@@ -2,14 +2,15 @@
 sidebar_position: 1
 title: Syllabus
 hide_title: true
-tags: [syllabus]
 ---
 
+import IconExternalLink from '@theme/IconExternalLink';
+
 <div className="alert alert--warning margin-bottom--md">
-  This page is incomplete.
+    There are no plans for Extension 1 content for 2022.
 </div>
 
-# Extension 1 Syllabus
+# Extension 1 Syllabus<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017"><IconExternalLink /></a>
 
 ##  Functions
 
@@ -126,24 +127,174 @@ tags: [syllabus]
 
 #### C1.2: Exponential growth and decay
 
-* construct, analyse and manipulate an exponential model of the form
+* construct, analyse and manipulate an exponential model of the form $N(t)=Ae^{kt}$ to solve a practical growth or decay problem in various contexts (for example population growth, radioactive decay or depreciation)
+    * establish the simple growth model, $\frac{dN}{dt}=kN$, where $N$ is the size of the physical quantity, $N=N(t)$ at time $t$ and $k$ is the growth constant
+    * verify (by substitution) that the function $N(t)=Ae^{kt}$ satisfies the relationship $\frac{dN}{dt}=kN$, with $A$ being the initial value of $N$
+    * sketch the curve $N(t)=Ae^{kt}$ for positive and negative values of $k$
+    * recognise that this model states that the rate of change of a quantity varies directly with the size of the quantity at any instant
+* establish the modified exponential model, $\frac{dN}{dt}=k(N-P)$, for dealing with problems such as 'Newton's Law of Cooling' or an ecosystem with a natural 'carrying capacity'
+    * verify (by substitution) that a solution to the differential equation $\frac{dN}{dt}=k(N-P)$ is $N(t)=P+Ae^{kt}$, for an arbitrary constant $A$, and $P$ a fixed quantity, and that the solution is $N=P$ in the case when $A=0$
+    * sketch the curve $N(t)=P+Ae^{kt}$ for positive and negative values of $k$
+    * note that whenever $k<0$, the quantity $N$ tends to the limit $P$ as $t\to\infty$, irrespective of the initial conditions
+    * recognise that this model states that the rate of change of a quantity varies directly with the difference in the size of the quantity and a fixed quantity at any instant
+* solve problems involving situations that can be modelled using the exponential model or the modified exponential model and sketch graphs appropriate to such problems
+
+#### C1.3: Related rates of change
+
+* solve problems involving related rates of change as instances of the chain rule
+* develop models of contexts where a rate of change of a function can be expressed as a rate of change of a composition of two functions, and to which the chain rule can be applied
 
 ### ME-C2 Further Calculus Skills<span id="year-12">Year 12</span>
 
+* find and evaluate indefinite and definite integrals using the method of integration by substitution, using a given substitution
+    * change an integrand into an appropriate form using algebra
+* prove and use the identities $\sin^2nx=\frac{1}{2}(1-\cos2nx)$ and $\cos^2nx=\frac{1}{2}(1+\cos2nx)$ to solve problems
+* solve problems involving $\int\sin^2nx\,dx$ and $\int\cos^2nxdx$
+* find derivatives of inverse functions by using the relationship $\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}}$
+* solve problems involving the derivatives of inverse trigonometric functions
+* integrate expressions of the form $\frac{1}{\sqrt{a^2-x^2}}$ or $\frac{a}{a^2+x^2}$
+
 ### ME-C3 Applications of Calculus<span id="year-12">Year 12</span>
+
+#### C3.1: Further area and volumes of solids of revolution
+
+* calculate area of regions between curves determined by functions
+* sketch, with and without the use of technology, the graph of a solid of revolution whose boundary is formed by rotating an arc of a function about the $x$-axis or $y$-axis
+* calculate the volume of a solid of revolution formed by rotating a region in the plane about the $x$-axis or $y$-axis, with and without the use of technology
+* determine the volumes of solids of revolution that are formed by rotating the region between two curves about either the $x$-axis or $y$-axis in both real-life and abstract contexts
+
+#### C3.2: Differential equations
+
+* recognise that an equation involving a derivative is called a differential equation
+* recognise that solutions to differential equations are functions and that these solutions may not be unique
+* sketch the graph of a particular solution given a direction field and initial conditions
+    * form a direction field (slope field) from simple first-order differential equations
+    * recognise the shape of a direction field from several alternatives given the form of a differential equation, and vice versa
+    * sketch several possible solution curves on a given direction field
+* solve simple first-order differential equations
+    * solve differential equations of the form $\frac{dy}{dx}=f(x)$
+    * solve differential equations of the form $\frac{dy}{dx}=g(y)$
+    * solve differential equations of the form $\frac{dy}{dx}=f(x)g(y)$ using separation of variables
+* recognise the features of a first-order linear differential equation and that exponential growth and decay models are first-order linear differential equations, with known solutions
+* model and solve differential equations including to the logistic equation that will arise in situations where rates are involved, for example in chemistry, biology and economics
 
 ## Combinatorics
 
 ### ME-A1 Working with Combinatorics<span id="year-11">Year 11</span>
 
+#### A1.1: Permutations and combinations
+
+* list and count the number of ways an event can occur
+* use the fundamental counting principle (also known as the multiplication principle)
+* use factorial notation to describe and determine the number of ways $n$ different items can be arranged in a line or a circle
+    * solve problems involving cases where some items are not distinct (excluding arrangements in a circle)
+* solve simple problems and prove results using the pigeonhole principle
+    * understand that if there are $n$ pigeonholes and $n+1$ pigeons to go into them, then at least one pigeonhole must hold 2 or more pigeons
+    * generalise to: If $n$ pigeons are sitting in $k$ pigeonholes, where $n>k$, then there is at least one pigeonhole with at least $\frac{n}{k}$ pigeons in it
+    * prove the pigeonhole principle
+* understand and use permutations to solve problems
+    * understand and use the notation ${}^nP_r$ and the formula ${}^nP_r=\frac{n!}{(n-r)!}$
+* solve problems involving permutations and restrictions with or without repeated objects
+* understand and use combinations to solve problems
+    * understand and use the notations $\begin{pmatrix}n\\r\end{pmatrix}$ and ${}^nC_r$ and the formula ${}^nC_r=\frac{n!}{r!(n-r)!}$
+* solve practical problems involving permutations and combinations, including those involving simple probability situations
+
+#### A1.2: The binomial expansion and Pascal's triangle
+
+* expand $(x+y)^n$ for small positive integers $n$
+    * note the pattern formed by the coefficients of $x$ in the expansion of $(1+x)^n$ and recognise links to Pascal’s triangle
+    * recognise the numbers $\begin{pmatrix}n\\r\end{pmatrix}$ (as denoted ${}^nC_r$) as binomial coefficients
+* derive and use simple identities associated with Pascal’s triangle
+    * establish combinatorial proofs of the Pascal’s triangle relations ${}^nC_0=1$, ${}^nC_n=1$; ${}^nC_r={}^{n-1}C_{r-1}+{}^{n-1}C_r$ for $1\leq r\leq n-1$; and ${}^nC_r={}^nC_{n-r}$
+
 ## Proof
 
 ### ME-P1 Proof by Mathematical Induction<span id="year-12">Year 12</span>
+
+* understand the nature of inductive proof, including the 'initial statement' and the inductive step
+* prove results using mathematical induction
+    * prove results for sums, for example $1+4+9+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}$ for any positive integer $n$
+    * prove divisibility results, for example $3^{2n}-1$ is divisible by 8 for any positive integer $n$
+* identify errors in false 'proofs by induction', such as cases where only one of the required two steps of a proof by induction is true, and understand that this means that the statement has not been proved
+* recognise situations where proof by mathematical induction is not appropriate
 
 ## Vectors
 
 ### ME-V1 Introduction to Vectors<span id="year-12">Year 12</span>
 
+#### V1.1: Introduction to vectors
+
+* define a vector as a quantity having both magnitude and direction, and examine examples of vectors, including displacement and velocity
+    * explain the distinction between a position vector and a displacement (relative) vector
+* define and use a variety of notations and representations for vectors in two dimensions
+    * use standard notations for vectors, for example: $\utilde{a}$, $\overrightarrow{AB}$, $\textbf{a}$
+    * represent vectors graphically in two dimensions as directed line segments
+    * define unit vectors as vectors of magnitude 1, and the standard two-dimensional perpendicular unit vectors $\utilde{i}$ and $\utilde{j}$
+    * express and use vectors in two dimensions in a variety of forms, including component form, ordered pairs and column vector notation
+* perform addition and subtraction of vectors and multiplication of a vector by a scalar algebraically and geometrically, and interpret these operations in geometric terms
+    * graphically represent a scalar multiple of a vector
+    * use the triangle law and the parallelogram law to find the sum and difference of two vectors
+    * define and use addition and subtraction of vectors in component form
+    * define and use multiplication by a scalar of a vector in component form
+
+#### V1.2: Further operations with vectors
+
+* define, calculate and use the magnitude of a vector in two dimensions and use the notation $\left|\utilde{u}\right|$ for the magnitude of a vector $\utilde{u}=x\utilde{i}+y\utilde{j}$
+    * prove that the magnitude of a vector, $\utilde{u}=x\utilde{i}+y\utilde{j}$, can be found using: $\left|\utilde{u}\right|=\left|x\utilde{i}+y\utilde{j}\right|=\sqrt{x^2+y^2}$
+    * identify the magnitude of a displacement vector $\overrightarrow{AB}$ as being the distance between the points $A$ and $B$
+    * convert a non-zero vector $\utilde{u}$ into a unit vector $\utilde{\hat{u}}$ by dividing by its length: $\utilde{\hat{u}}=\frac{\utilde{u}}{\left|\utilde{u}\right|}$
+* define and use the direction of a vector in two dimensions
+* define, calculate and use the scalar (dot) product of two vectors $\utilde{u}=x_1\utilde{i}+y_1\utilde{j}$ and $\utilde{v}=x_2\utilde{i}+y_2\utilde{j}$
+    * apply the scalar product, $\utilde{u}\cdot\utilde{v}$, to vectors expressed in component form, where $\utilde{u}\cdot\utilde{v}=x_1x_2+y_1y_2$
+    * use the expression for the scalar (dot) product, $\utilde{u}\cdot\utilde{v}=\left|\utilde{u}\right|\left|\utilde{v}\right|\cos\theta$ where $\theta$ is the angle between vectors $\utilde{u}$ and $\utilde{v}$ to solve problems
+    * demonstrate the equivalence, $\utilde{u}\cdot\utilde{v}=\left|\utilde{u}\right|\left|\utilde{v}\right|\cos\theta=x_1x_2+y_1y_2$ and use this relationship to solve problems
+    * establish and use the formula $\utilde{v}\cdot\utilde{v}=\left|\utilde{v}\right|^2$
+    * calculate the angle between two vectors using the scalar (dot) product of two vectors in two dimensions
+* examine properties of parallel and perpendicular vectors and determine if two vectors are parallel or perpendicular
+* define and use the projection of one vector onto another
+* solve problems involving displacement, force and velocity involving vector concepts in two dimensions
+* prove geometric results and construct proofs involving vectors in two dimensions including to proving that:
+    * the diagonals of a parallelogram meet at right angles if and only if it is a rhombus
+    * the midpoints of the sides of a quadrilateral join to form a parallelogram
+    * the sum of the squares of the lengths of the diagonals of a parallelogram is equal to the sum of the squares of the lengths of the sides
+
+#### V1.3: Projectile motion
+
+* understand the concept of projectile motion, and model and analyse a projectile’s path assuming that:
+    * the projectile is a point
+    * the force due to air resistance is negligible
+    * the only force acting on the projectile is the constant force due to gravity, assuming that the projectile is moving close to the Earth’s surface
+* model the motion of a projectile as a particle moving with constant acceleration due to gravity and derive the equations of motion of a projectile
+    * represent the motion of a projectile using vectors
+    * recognise that the horizontal and vertical components of the motion of a projectile can be represented by horizontal and vertical vectors
+    * derive the horizontal and vertical equations of motion of a projectile
+    * understand and explain the limitations of this projectile model
+* use equations for horizontal and vertical components of velocity and displacement to solve problems on projectiles
+* apply calculus to the equations of motion to solve problems involving projectiles
+
 ## Statistical Analysis
 
 ### ME-S1 The Binomial Distribution<span id="year-12">Year 12</span>
+
+#### S1.1: Bernoulli and binomial distributions
+
+* use a Bernoulli random variable as a model for two-outcome situations
+    * identify contexts suitable for modelling by Bernoulli random variables
+* use Bernoulli random variables and their associated probabilities to solve practical problems
+    * understand and apply the formulae for the mean, $E(X)=\bar{x}=p$, and variance, $\text{Var}(X)=p(1-p)$, of the Bernoulli distribution with parameter $p$, and $X$ defined as the number of successes
+* understand the concepts of Bernoulli trials and the concept of a binomial random variable as the number of ‘successes’ in $n$ independent Bernoulli trials, with the same probability of success $p$ in each trial
+    * calculate the expected frequencies of the various possible outcomes from a series of Bernoulli trials
+* use binomial distributions and their associated probabilities to solve practical problems
+    * identify contexts suitable for modelling by binomial random variables
+    * identify the binomial parameter $p$ as the probability of success
+    * understand and use the notation $X\sim\text{Bin}(n,p)$ to indicate that the random variable $X$ is distributed binomially with parameters $n$ and $p$
+    * apply the formulae for probabilities $P(X=r)={}^nC_rp^r(1-p)^{n-r}$ associated with the binomial distribution with parameters $n$ and $p$ and understand the meaning of ${}^nC_r$ as the number of ways in which an outcome with $r$ successes can occur
+    * understand and apply the formulae for the mean, $E(X)=\bar{x}=np$, and the variance, $\text{Var}(X)=np(1-p)$, of a binomial distribution with parameters $n$ and $p$
+
+#### S1.2: Normal approximation for the sample proportion
+
+* use appropriate graphs to explore the behaviour of the sample proportion on collected or supplied data
+    * understand the concept of the sample proportion $\hat{p}$ as a random variable whose value varies between samples
+* explore the behaviour of the sample proportion using simulated data
+    * examine the approximate normality of the distribution of $\hat{p}$ for large samples
+* understand and use the normal approximation to the distribution of the sample proportion and its limitations
