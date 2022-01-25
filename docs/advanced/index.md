@@ -42,16 +42,17 @@ test
 :::
 
 <ExampleButtons
-answer={<div>
+hint={<div>
 
-$$ax$$
+$hint$
 
 </div>}
-solution={'http://www.google.com/'}>
+answer={<div>
 
-$$ax$$
+$answer$
 
-</ExampleButtons>
+</div>}
+url={'https://www.youtube.com/watch?v=j9D7Ooyyr5M'} />
 
 <Hint>
 

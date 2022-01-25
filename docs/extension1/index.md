@@ -14,7 +14,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 
 ##  Functions
 
-### ME-F1 Further Work with Functions<span id="year-11">Year 11</span>
+### ME-F1 Further Work with Functions<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2627"><IconExternalLink /></a><span id="year-11">Year 11</span>
 
 #### F1.1: Graphical relationships
 
@@ -48,7 +48,7 @@ import IconExternalLink from '@theme/IconExternalLink';
     * convert linear and quadratic functions, and circles from parametric form to Cartesian form and vice versa
     * sketch linear and quadratic functions, and circles expressed in parametric form
 
-### ME-F2 Polynomials<span id="year-11">Year 11</span>
+### ME-F2 Polynomials<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2630"><IconExternalLink /></a><span id="year-11">Year 11</span>
 
 #### F2.1: Remainder and factor theorems
 
@@ -70,7 +70,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 
 ## Trigonometric Functions
 
-### ME-T1 Inverse Trigonometric Functions<span id="year-11">Year 11</span>
+### ME-T1 Inverse Trigonometric Functions<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2636"><IconExternalLink /></a><span id="year-11">Year 11</span>
 
 * define and use the inverse trigonometric functions
     * understand and use the notation $\arcsin x$ and $\sin^-1 x$ for the inverse function of $\sin x$ when $-\frac{\pi}{2}\leq x\leq\frac{\pi}{2}$ (and similarly for $\cos x$ and  $\tan x$) and understand when each notation might be appropriate to avoid confusion with the reciprocal functions
@@ -83,7 +83,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 * prove and use the properties: $\sin^{-1}(-x)=-\sin^{-1}x$, $\cos^{-1}=\pi-\cos^{-1}x$, $\tan^{-1}(-x)=-\tan^{-1}x$ and $cos^{-1}x+\sin^{-1}x=\frac{\pi}{2}$
 * solve problems involving inverse trigonometric functions in a variety of abstract and practical situations
 
-### ME-T2 Further Trigonometric Identities<span id="year-11">Year 11</span>
+### ME-T2 Further Trigonometric Identities<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2639"><IconExternalLink /></a><span id="year-11">Year 11</span>
 
 * derive and use the sum and difference expansions for the trigonometric functions $\sin(A\pm B)$, $\cos(A\pm B)$ and $\tan(A\pm B)$
     * $\sin(A\pm B)=\sin A\cos B\pm\cos A\sin B$
@@ -105,7 +105,7 @@ import IconExternalLink from '@theme/IconExternalLink';
     * $\sin A\cos B=\frac{1}{2}\left[\sin(A+B)+\sin(A-B)\right]$
     * $\cos A\sin B=\frac{1}{2}\left[\sin(A+B)-\sin(A-B)\right]$
 
-### ME-T3 Trigonometric Equations<span id="year-12">Year 12</span>
+### ME-T3 Trigonometric Equations<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2669"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 * convert expressions of the form $a\cos x+b\sin x$ to $R\cos(x\pm\alpha)$ or $R\sin(x\pm\alpha)$ and apply these to solve equations of the form $a\cos x+b\sin x=c$, sketch graphs and solve related problems
 * solve trigonometric equations requiring factorising and/or the application of compound angle, double angle formulae or the $t$-formulae
@@ -114,7 +114,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 
 ## Calculus
 
-### ME-C1 Rates of Change<span id="year-11">Year 11</span>
+### ME-C1 Rates of Change<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2645"><IconExternalLink /></a><span id="year-11">Year 11</span>
 
 #### C1.1: Rates of change with respect to time
 
@@ -144,7 +144,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 * solve problems involving related rates of change as instances of the chain rule
 * develop models of contexts where a rate of change of a function can be expressed as a rate of change of a composition of two functions, and to which the chain rule can be applied
 
-### ME-C2 Further Calculus Skills<span id="year-12">Year 12</span>
+### ME-C2 Further Calculus Skills<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2675"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 * find and evaluate indefinite and definite integrals using the method of integration by substitution, using a given substitution
     * change an integrand into an appropriate form using algebra
@@ -154,7 +154,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 * solve problems involving the derivatives of inverse trigonometric functions
 * integrate expressions of the form $\frac{1}{\sqrt{a^2-x^2}}$ or $\frac{a}{a^2+x^2}$
 
-### ME-C3 Applications of Calculus<span id="year-12">Year 12</span>
+### ME-C3 Applications of Calculus<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2678"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 #### C3.1: Further area and volumes of solids of revolution
 
@@ -180,7 +180,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 
 ## Combinatorics
 
-### ME-A1 Working with Combinatorics<span id="year-11">Year 11</span>
+### ME-A1 Working with Combinatorics<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2651"><IconExternalLink /></a><span id="year-11">Year 11</span>
 
 #### A1.1: Permutations and combinations
 
@@ -209,7 +209,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 
 ## Proof
 
-### ME-P1 Proof by Mathematical Induction<span id="year-12">Year 12</span>
+### ME-P1 Proof by Mathematical Induction<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2657"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 * understand the nature of inductive proof, including the 'initial statement' and the inductive step
 * prove results using mathematical induction
@@ -220,7 +220,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 
 ## Vectors
 
-### ME-V1 Introduction to Vectors<span id="year-12">Year 12</span>
+### ME-V1 Introduction to Vectors<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2663"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 #### V1.1: Introduction to vectors
 
@@ -274,7 +274,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 
 ## Statistical Analysis
 
-### ME-S1 The Binomial Distribution<span id="year-12">Year 12</span>
+### ME-S1 The Binomial Distribution<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2684"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
 #### S1.1: Bernoulli and binomial distributions
 

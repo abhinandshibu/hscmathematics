@@ -6,7 +6,6 @@ tags: [syllabus]
 ---
 
 import IconExternalLink from '@theme/IconExternalLink';
-import Definition from '@site/src/components/Definition';
 
 <div className="alert alert--warning margin-bottom--md">
   This page is incomplete.

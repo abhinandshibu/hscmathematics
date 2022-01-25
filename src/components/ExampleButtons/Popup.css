@@ -1,0 +1,34 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+html[data-theme='light'] .popup-inner {
+    position: relative;
+    padding: 2em 10% 5em 10%;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+}
+
+html[data-theme='dark'] .popup-inner {
+    position: relative;
+    padding: 2em 10% 5em 10%;
+    width: 100%;
+    max-width: 100%;
+    background-color: black;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    bottom: 2em;
+    right: 10%;
+}
