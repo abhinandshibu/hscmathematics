@@ -80,10 +80,33 @@ const katex = require('./katex-fork.js');
         items: [
           {
             type: 'doc',
-            docId: 'standard/syllabus/standard2',
+            docId: 'standard1/index',
             position: 'left',
-            label: 'Standard',
+            label: 'Standard 1',
           },
+          {
+            type: 'doc',
+            docId: 'standard2/index',
+            position: 'left',
+            label: 'Standard 2',
+          },
+          // {
+          //   type: 'dropdown',
+          //   position: 'left',
+          //   label: 'Standard',
+          //   items: [
+          //     {
+          //       type: 'doc',
+          //       docId: 'standard1/index',
+          //       label: 'Standard 1',
+          //     },
+          //     {
+          //       type: 'doc',
+          //       docId: 'standard2/index',
+          //       label: 'Standard 2',
+          //     }
+          //   ]
+          // },
           {
             type: 'doc',
             docId: 'advanced/index',
@@ -116,8 +139,12 @@ const katex = require('./katex-fork.js');
             title: 'Mathematics',
             items: [
               {
-                label: 'Standard',
-                to: 'standard/syllabus/standard2',
+                label: 'Standard 1',
+                to: '/standard1/',
+              },
+              {
+                label: 'Standard 2',
+                to: '/standard2/',
               },
               {
                 label: 'Advanced',
