@@ -2,13 +2,12 @@
 sidebar_position: 1
 title: Syllabus
 hide_title: true
-tags: [syllabus]
 ---
 
 import IconExternalLink from '@theme/IconExternalLink';
 
-<div className="alert alert--warning margin-bottom--md">
-  This page is incomplete.
+<div className="alert alert--success margin-bottom--md">
+  Standard 2 content will be added during 2022.
 </div>
 
 # Standard 2 Syllabus<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a>
@@ -117,9 +116,36 @@ straight-line graphs, including the break-even point of a simple business proble
     * review how to interpret timetables, eg bus, train and ferry timetables, and use them to solve problems
     * solve practical problems, eg travelling east and west, incorporating time zones, or internet and phone usage across time zones, or the timing of events broadcast live from states of countries between different time zones
 
-### MS-M6 Non-right-angled Trigonometry<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a><span id="year-12">Year 12</span>
+### MS-M6 Non-right-angled Trigonometry<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1298"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
-### MS-M7 Rates and Ratios<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a><span id="year-12">Year 12</span>
+* review and use the trigonometric ratios to find the length of an unknown side or the size of an unknown angle in a right-angled triangle
+* use technology to investigate the sign of $\sin A$ and $\cos A$ for $0\degree\leq A\leq180\degree$
+* determine the area of any triangle, given two sides and an included angle, by using the rule $A=\frac{1}{2}ab\sin C$, and solve related practical problems
+* solve problems involving non-right-angled triangles using the sine rule, $\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}$ (ambiguous case excluded)
+    * find the size of an obtuse angle, given that it is obtuse
+* solve problems involving non-right-angled triangles using the cosine rule, $c^2=a^2+b^2-2ab\cos C$
+* understand various navigational methods
+    * understand the difference between compass and true bearings
+    * investigate navigational methods used by different cultures, including those of Aboriginal and Torres Strait Islander Peoples
+* solve practical probelsm involving Pythagoras' theorem, the trigonometry of right-angled and non- right-angled triangles, angles of elevation and depression and the use of true bearings and compass bearings
+    * work with angles correct to the nearest degree and/or minute
+* construct and interpret compass radial surveys and solve related problems
+
+### MS-M7 Rates and Ratios<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1301"><IconExternalLink /></a><span id="year-12">Year 12</span>
+
+* use rates to solve and describe practical problems
+    * use rates to make comparisons, eg using unit prices to compare best buys, working with speed, comparing heart rates after exercise and considering target heart rate ranges during training
+    * know that a watt (W) is the International System of Units (SI) derived unit of power and is equal to one joule per second
+    * interpret the energy rating of household appliances and compare running costs of different models of the same type of appliance, considering costs of domestic electricity, eg calculate the cost of running a 200-watt television for six hours if the average peak rate for domestic electricity is $0.15/kWh
+    * investigate local council requirements for energy-efficient housing
+    * calculate the amount of fuel used on a trip, given the fuel consumption rate, and compare fuel consumption statistics for various vehicles
+* solve practical problems involving ratio, for example capture-recapture, mixtures for building materials or cost per item
+    * work with ratio to express a ratio in simplest form, to find the ratio of two quantities and to divide a quantity in a given ratio
+    * use ratio to describe map scales
+* obtain measurements from scale drawings, including maps (including cultural mappings or models) or building plans, to solve problems
+    * interpret commonly used symbols and abbreviations on building plans and elevation views
+    * calculate the perimeter or area of a section of land, using the Trapezoidal rule where appropriate, from a variety of sources, including a site plan, an aerial photograph, radial surveys or maps that include a scale
+    * calculate the volume of rainfall over an area, using $V=Ah$, from a variety of sources, including a site plan, an aerial photograph, radial surveys or maps that include a scale
 
 ## Financial Mathematics
 
@@ -160,9 +186,36 @@ straight-line graphs, including the break-even point of a simple business proble
     * calculate and compare the cost of running different vehicles using a spreadsheet
 * prepare a personal budget for a given income, taking into account fixed and discretionary spending
 
-### MS-F4 Investments and Loans<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a><span id="year-12">Year 12</span>
+### MS-F4 Investments and Loans<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1307"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
-### MS-F5 Annuities<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a><span id="year-12">Year 12</span>
+#### F4.1: Investments
+
+* calculate the future value ($FV$) or present value ($PV$) and the interest rate ($r$) of a compound interest investment using the formula $FV=PV(1+r)^n$
+    * compare the growth of simple interest and compound interest investments numerically and graphically, linking graphs to linear and exponential modelling using technology
+    * investigate the effect of varying the interest rate, the term or the compounding period on the future value of an investment, using technology
+    * compare and contrast different investment strategies, performing appropriate calculations when needed
+* solve practical problems involving compounding, for example determine the impact of inflation on prices and wages
+* work with shares and calculate the appreciated value of items, for example antiques
+    * record and graph the price of a share over time
+    * calculate the dividend paid on a portfolio of shares, and the dividend yield (excluding franked dividends)
+
+#### F4.2: Depreciation and loans
+
+* calculate the depreciation of an asset using the declining-balance method using the formula $S=V_0(1-r)^n$, where $S$ is the salvage value of the asset after $n$ periods, $V_0$ is the initial value of the asset, $r$ is the depreciation rate per period, expressed as a decimal, and $n$ is the number of periods, as an application of the compound interest formula
+* solve practical problems involving reducing balance loans, for example determining the total loan amount and monthly repayments
+* recognise credit cards as an example of a reducing balance loan and solve practical problems relating to credit cards
+    * identify the various fees and charges associated with credit card usage
+    * compare credit card interest rates with interest rates for other loan types
+    * interpret credit card statements, recognising the implications of only making the minimum payment
+    * understand what is meant by an interest-free period
+    * calculate the compounding interest charged on a retail purchase, transaction or the outstanding balance for a given number of days, using technology or otherwise
+
+### MS-F5 Annuities<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1310"><IconExternalLink /></a><span id="year-12">Year 12</span>
+
+* solve compound interest related problems involving financial decisions, for example a home loan, a savings account, a car loan or an annuity
+    * identify an annuity as an investment account with regular, equal contributions and interest compounding at the end of each period, or as a single sum investment from which regular, equal withdrawals are made
+    * using technology, model an annuity as a recurrence relation, and investigate (numerically or graphically) the effect of varying the amount and frequency of each contribution, the interest rate or the payment amount on the duration and/or future value of the annuity
+    * use a table of interest factors to perform annuity calculations, eg calculating the present or future value of an annuity, the contribution amount required to achieve a given future value or the single sum that would produce the same future value as a given annuity
 
 ## Statistical Analysis
 
@@ -229,12 +282,74 @@ straight-line graphs, including the break-even point of a simple business proble
     * use existing known probabilities, or estimates based on relative frequencies to calculate expected frequency for a given sample or population, eg predicting, by calculation, the number of people of each blood type in a population given a two-way table of percentage breakdowns
     * calculate the expected frequency of an event occurring using $np$ where $n$ represents the number of times an experiment is repeated, and on each of those times the probability that the event occurs is $p$
 
-### MS-S4 Bivariate Data Analysis<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a><span id="year-12">Year 12</span>
+### MS-S4 Bivariate Data Analysis<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1316"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
-### MS-S5 The Normal Distribution<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a><span id="year-12">Year 12</span>
+* construct a bivariate scatterplot to identify patterns in the data that suggest the presence of an association
+* use bivariate scatterplots (constructing them when needed) to describe the patterns, features and associations of bivariate datasets, justifying any conclusions
+    * describe bivariate datasets in terms of form (linear/non-linear) and, in the case of linear, the direction (positive/negative) and strength of any association (strong/moderate/weak)
+    * identify the dependent and independent variables within bivariate datasets where appropriate
+    * describe and interpret a variety of bivariate datasets involving two numerical variables using real-world examples from the media or freely available from government or business datasets
+    * calculate and interpret Pearson's correlation coefficient ($r$) using technology to quantify the strength of a linear association of a sample
+* model a linear relationship by fitting an appropriate line of best fit to a scatterplot and using it to describe and quantify associations
+    * fit a line of best fit both by eye and by using technology to the data
+    * fit a least-squares regression line to the data using technology
+    * interpret the intercept and gradient of the fitted line
+* use the appropriate line of best fit, both found by eye and by applying the equation, to make predictions by either interpolation or extrapolation
+    * recognise the limitations of interpolation and extrapolation, and interpolate from plotted data to make predictions where appropriate
+* solve problems that involve identifying, analysing and describing associations between two numerical variables
+* construct, interpret and analyse scatterplots for bivariate numerical data in practical contexts
+    * demonstrate an awareness of issues of privacy and bias, ethics, and responsiveness to diverse groups and cultures when collecting and using data
+    * investigate using biometric data obtained by measuring the body or by accessing published data from sources including government organisations, and determine if any associations exist between identified variables
+
+### MS-S5 The Normal Distribution<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1319"><IconExternalLink /></a><span id="year-12">Year 12</span>
+
+* recognise a random variable that is normally distributed, justifying their reasoning, and draw an appropriate 'bell-shaped' frequency distribution curve to represent it
+    * identify that the mean and median are approximately equal for data arising from a random variable that is normally distributed
+* calculate the $z$-score (standardised score) corresponding to a particular value in a dataset
+    * use the formula $z=\frac{x-\mu}{\sigma}$, where $\mu$ is the mean and $\sigma$ is the standard deviation
+    * describe the $z$-score as the number of standard deviations a value lies above or below the mean
+    * recognise that the set of $z$-scores for data arising from a random variable that is normally distributed has a mean of 0 and a standard deviation of 1
+* use calculated $z$-scores to compare scores from different datasets, for example comparing student's subject examination scores
+* use collected data to illustrate that, for normally distributed random variables, approximately 68% of data will have $z$-scores between -1 and 1, approximately 95% of data will have $z$-scores between -2 and 2 and approximately 99.7% of data will have $z$-scores between -3 and 3 (known as the empirical rule)
+    * apply the empirical rule to a variety of problems
+    * indicate by shading where results sit within the normal distribution, eg where the top 10% of data lies
+* use $z$-scores to identify probabilities of events less or more extreme than a given event
+    * use statistical tables to determine probabilities
+    * use technology to determine probabilities
+* use $z$-scores to make judgements related to outcomes of a given event or sets of data
 
 ## Networks
 
-### MS-N2 Network Concepts<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a><span id="year-12">Year 12</span>
+### MS-N2 Network Concepts<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1325"><IconExternalLink /></a><span id="year-12">Year 12</span>
 
-### MS-N3 Critical Path Analysis<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017"><IconExternalLink /></a><span id="year-12">Year 12</span>
+#### N2.1: Networks
+
+* identify and use network terminology: vertices, edges, paths, the degree of a vertex, directed networks and weighted edges
+* solve problems involving network diagrams
+    * recognise circumstances in which networks could be used, eg the cost of connecting various locations on a university campus with computer cables
+    * given a map, draw a network to represent the map, eg travel times for the stages of a planned journey
+    * draw a network diagram to represent information given in a table
+    * investigate and solve practical problems, eg planning a garbage bin collection route
+
+#### N2.2: Shortest paths
+
+* determine the minimum spanning tree of a given network with weighted edges
+    * determine the minimum spanning tree by using Kruskal's or Prim's alogrithms or by inspection
+    * determine the definition of a tree and a minimum spanning tree for a given network
+    * use minimum spanning trees to solve minimal connector problems, eg minimising the length of cable needed to provide power from a single power station to substations in several towns
+* find a shortest path from one place to another in a network with no more than 10 vertices
+    * identify a shortest path on a network diagram
+    * recognise a circumstance in which a shortest path is not necessarily the best path or contained in any minimum spanning tree
+
+### MS-N3 Critical Path Analysis<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-standard-2017/content/1328"><IconExternalLink /></a><span id="year-12">Year 12</span>
+
+* construct a network to represent the duration and interdependencies of activities that must be completed during a particular project, for example a student schedule, or preparing a meal
+* given activity charts, prepare network diagrams and use critical path analysis to determine the minimum time for a project to be completed
+    * use forward and backward scanning to determine the earliest starting time (EST) and latest starting time (LST) for each activity in the project
+    * understand why the EST for an activity could be zero, and in what circumstances it would be greater than zero
+    * calculate float times of non-critical activities
+    * understand what is meant by critical path
+    * use ESTs and LSTs to locate the critical path(s) for the project
+* solve small-scale network flow problems, including the use of the 'maximum-flow minimum-cut' theorem, for example determining the maximum volume of oil that can flow through a network of pipes from an oil storage tank (the source) to a terminal (the sink)
+    * convert information presented in a table into a network diagram
+    * determine the flow capacity of a network and whether the flow is sufficient to meet the demand in various contexts

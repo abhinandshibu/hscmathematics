@@ -73,7 +73,7 @@ import IconExternalLink from '@theme/IconExternalLink';
 ### ME-T1 Inverse Trigonometric Functions<a to="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/stage-6-mathematics/mathematics-extension-1-2017/content/2636"><IconExternalLink /></a><span id="year-11">Year 11</span>
 
 * define and use the inverse trigonometric functions
-    * understand and use the notation $\arcsin x$ and $\sin^-1 x$ for the inverse function of $\sin x$ when $-\frac{\pi}{2}\leq x\leq\frac{\pi}{2}$ (and similarly for $\cos x$ and  $\tan x$) and understand when each notation might be appropriate to avoid confusion with the reciprocal functions
+    * understand and use the notation $\arcsin x$ and $\sin^{-1} x$ for the inverse function of $\sin x$ when $-\frac{\pi}{2}\leq x\leq\frac{\pi}{2}$ (and similarly for $\cos x$ and  $\tan x$) and understand when each notation might be appropriate to avoid confusion with the reciprocal functions
     * use the convention of restricting the domain of $\sin x$ to $-\frac{\pi}{2}\leq x\leq\frac{\pi}{2}$, so the inverse function exists. The inverse of this restricted sine function is defined by: $y=\sin^{-1} x$, $-1\leq x\leq1$ and $-\frac{\pi}{2}\leq y\leq\frac{\pi}{2}$
     * use the convention of restricting the domain of $\cos x$ to $0\leq x\leq\pi$, so the inverse function exists. The inverse of this restricted cosine function is defined by: $y=\cos^{-1}x$, $-1\leq x\leq1$ and $0\leq y\leq\pi$
     * use the convention of restricting the domain of $\tan x$ to $-\frac{\pi}{2}<x<\frac{\pi}{2}$,so the inverse function exists. The inverse of this restricted tangent function is defined by: $y=\tan^{-1}x$, $x$ is a real number and $-\frac{\pi}{2}<y<\frac{\pi}{2}$
