@@ -137,11 +137,11 @@ const katex = require('./katex-fork.js');
           //   label: 'GitHub',
           //   position: 'right',
           // },
-          {
-            to: 'blog',
-            label: 'Blog',
-            position: 'right',
-          },
+          // {
+          //   to: 'blog',
+          //   label: 'Blog',
+          //   position: 'right',
+          // },
           // {
           //   href: 'mailto:contact@mail.com',
           //   label: 'Contact',
@@ -198,10 +198,6 @@ const katex = require('./katex-fork.js');
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 html: `
                 <a href="mailto:contact@hscmathematics.com" style="color:#FFFFFF"
                   onmouseover="this.style.color='#543391';"
@@ -212,6 +208,10 @@ const katex = require('./katex-fork.js');
                   </svg>
                 </a>
                 `,
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
               },
           //     {
           //       label: 'GitHub',
