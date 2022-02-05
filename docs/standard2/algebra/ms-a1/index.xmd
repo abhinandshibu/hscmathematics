@@ -1,0 +1,84 @@
+---
+sidebar_position: 2
+title: Testing
+hide_title: true
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import IconExternalLink from '@theme/IconExternalLink';
+import IconDefinition from '@site/src/components/IconDefinition';
+import IconPresentation from '@site/src/components/IconPresentation';
+import HSAButtons from '@site/src/components/Examples/HSAButtons';
+import ExampleBox from '@site/src/components/Examples/Box';
+import Hint from '@site/src/components/Hint';
+import IconPlay from '@site/src/components/IconPlay';
+import IconPractice from '@site/src/components/IconPractice';
+import DefinitionAdmonition from '@site/src/components/Admonitions/Definition';
+import HintAdmonition from '@site/src/components/Admonitions/Hint';
+import SolutionAdmonition from '@site/src/components/Admonitions/Solution';
+
+# Testing<a to="https://www.google.com/"><IconExternalLink /></a><a target="\_blank" href='/pres/c_quadratic-functions.html'><IconPresentation/></a>
+
+
+<ExampleBox>
+
+<Tabs>
+<TabItem value="ex1" label="Example 1" default>
+
+Expand and simplify $4x+2x\left(2+\frac{1}{x}\right)$.
+
+<SolutionAdmonition>
+
+$$
+\begin{aligned}
+4x+2x\left(2+\frac{1}{x}\right)&=4x+2x\times2+2x\times\frac{1}{x}\qquad&&\text{(Expand brackets)}\\
+&=4x+4x+2&&\text{(Simplify)}\\
+&=8x+2&&\text{(Collect like terms)}
+\end{aligned}
+$$
+
+</SolutionAdmonition>
+
+</TabItem>
+<TabItem value="ex2" label="Example 2">
+
+This is an orange 🍊
+
+</TabItem>
+<TabItem value="ex3" label=<span><IconPractice/> Practice</span>>
+
+This is a banana 🍌
+
+<HSAButtons
+hint={<div>
+
+$hint$
+
+</div>}
+answer={<div>
+
+answer
+
+</div>}
+url={'https://www.youtube.com/watch?v=j9D7Ooyyr5M'}
+/>
+
+</TabItem>
+</Tabs>
+
+</ExampleBox>
+
+<DefinitionAdmonition>
+
+ok
+
+</DefinitionAdmonition>
+
+$$
+\begin{aligned}
+\cos\theta&=\dfrac{3}{5}\\
+\theta&=\cos^{-1}\left(\dfrac{3}{5}\right)&&{\text{\htmlClass{casio}{qk3P5)=}}}\\
+\theta&=53.1^\circ \text{\ (1 d.p.)}
+\end{aligned}
+$$

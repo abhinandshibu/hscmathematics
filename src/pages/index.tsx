@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <br></br>
-        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center',}}><h1>Look out for these icons!</h1></div>
+        {/* <div style={{display: 'flex',  justifyContent:'center', alignItems:'center',}}><h1>Look out for these icons!</h1></div> */}
         <HomepageFeatures />
         {/* <div style={{display: 'flex',  justifyContent:'center', alignItems:'center',}}><h1>Get started</h1></div><br></br>
         <div style={{display: 'flex',  justifyContent:'center', alignItems:'center',}} className={"styles.buttons"}>

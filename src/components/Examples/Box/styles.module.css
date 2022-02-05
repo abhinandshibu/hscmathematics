@@ -1,0 +1,29 @@
+.AdmonitionHeading h5 {
+  color: var(--ifm-color-success-contrast-foreground);
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+}
+
+.AdmonitionIcon{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: .2em;
+}
+
+.Admonition {
+  margin-bottom: 1em;
+  border-radius: var(--ifm-alert-border-radius);
+  border: 1px dotted var(--ifm-color-success-dark);
+  border-left: 5px solid var(--ifm-color-success-dark);
+  color: var(--ifm-font-color-base);
+  padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+  box-shadow: var(--ifm-alert-shadow);
+}
+
+.AdmonitionContent {
+  margin-top: 0rem;
+  margin-bottom: -1.25rem;
+}
