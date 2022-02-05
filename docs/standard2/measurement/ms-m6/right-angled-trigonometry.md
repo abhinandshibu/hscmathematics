@@ -103,10 +103,15 @@ $$
 n&=\frac{3}{\sin28^\circ}&&\text{(Multiply both sides by $n$ and}\\
 &&&\text{divide by $\sin28^\circ$)}\\
 n&=6.390...&&\text{(Unrounded value)}\\
-n&\approx6.39\text{ cm}&&\text{(Rounded to appropraite number}\\
-&&&\text{of d.p. and include units)}
+n&\approx6.39&&\text{(Rounded to appropraite number of d.p.)}
 \end{aligned}
 $$
+
+:::note
+
+In the diagram, $n$ already has units so you do not need to include them.
+
+:::
 
 </SolutionAdmonition>
 
