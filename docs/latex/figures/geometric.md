@@ -14,4 +14,8 @@ Drawing diagrams in tikz makes use of coordinates to draw lines and shapes, for 
 \end{document}
 ```
 
+Produces the following:
+
+<iframe src="/latex/geometric-figures_triangle-01.pdf#toolbar=0" width="100%" height="500px"></iframe>
+
 Notice the coordinates of the vertices of the triangle are `(0,0)`, `(0,3)` and `(5,0)`. The `--` in between the coordinates indicates that a line will be drawn between the points. The `-- cycle` at the end is not entirely necessary, but it *does* make the corners.
