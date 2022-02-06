@@ -103,7 +103,7 @@ $$
 n&=\frac{3}{\sin28^\circ}&&\text{(Multiply both sides by $n$ and}\\
 &&&\text{divide by $\sin28^\circ$)}\\
 n&=6.390...&&\text{(Unrounded value)}\\
-n&\approx6.39&&\text{(Rounded to appropraite number of d.p.)}
+n&\approx6.39&&\text{(Rounded to appropraite numberof d.p.)}
 \end{aligned}
 $$
 
