@@ -36,7 +36,7 @@ Results in the following:
 <TabItem value="ex2" label="Deriving Quadratic Formula">
 
 ```latex
-\documentclass{article}
+\documentclass[a4paper]{article}
 \usepackage{amsmath}
 \begin{document}
 \[
