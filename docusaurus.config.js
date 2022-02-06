@@ -114,6 +114,12 @@ const katex = require('./katex-fork.js');
             label: 'Extension 2',
           },
           // {
+          //   type: 'doc',
+          //   docId: 'latex/index',
+          //   position: 'right',
+          //   label: 'LaTeX',
+          // },
+          // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
           //   position: 'right',
@@ -190,6 +196,10 @@ const katex = require('./katex-fork.js');
                 </a>
                 `,
               },
+              // {
+              //   label: 'LaTeX',
+              //   to: '/latex',
+              // },
               {
                 label: 'Blog',
                 to: '/blog',
@@ -225,6 +235,7 @@ const katex = require('./katex-fork.js');
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['latex'],
       },
     }),
 });
