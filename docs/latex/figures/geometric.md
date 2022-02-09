@@ -23,7 +23,7 @@ Drawing diagrams in tikz makes use of coordinates to draw lines and shapes, for 
 
 Produces the following:
 
-<iframe src="/latex/geometric-figures_triangle-01.pdf#toolbar=0" width="100%" height="500px"></iframe>
+![Angles](./files/img/triangle_light.png#light-mode-only-md)![Angles](./files/img/triangle_dark.png#dark-mode-only-md)
 
 Notice the coordinates of the vertices of the triangle are `(0,0)`, `(0,3)` and `(5,0)`. The `--` in between the coordinates indicates that a line will be drawn between the points. The `-- cycle` at the end is not entirely necessary, but it *does* make the corners neater.
 
@@ -59,12 +59,19 @@ For example,
 \end{document}
 ```
 
+Produces the following:
+
+![Angles](./files/img/triangle_customised_light.png#light-mode-only-md)![Angles](./files/img/triangle_customised_dark.png#dark-mode-only-md)
+
 Some options can also be added to `\draw`, such as:
 
 * `color` to change the colour of the line
 * `dashed` to draw a dashed line
+* `dotted` to draw a dotted line
 
 ## Adding side lengths
+
+To add side lengths to your diagram the easiest way is to add a node along the line. To do this, after each line segment in your code add a `node[options]{label}`. For the options you will want to set it `midway` and then a direction (`above`, `below`, `left`, `right`, `above right`, `above left`, `below right`, `below left`). Then in you can add a side length in the label.
 
 ```latex title="triangle_labelled.tex"
 \documentclass[margin=1mm]{standalone}
@@ -75,10 +82,13 @@ Some options can also be added to `\draw`, such as:
 \end{tikzpicture}
 \end{document}
 ```
+Produces the following:
+
+![Angles](./files/img/triangle_labelled_light.png#light-mode-only-md)![Angles](./files/img/triangle_labelled_dark.png#dark-mode-only-md)
 
 ## Neatening up your code
 
-You may have noticed that the code is getting harder to read with it being so long. To make things easier to read it is good practice to get into the habit of keeping your code neat. There are a few different ways you could choose to neaten it up. For example, you could just add in a line break with an indent (just hit tab!) after every `--`, i.e.
+You may have noticed that the code is getting harder to read with it being so long. To make things easier to read it is good practice to get into the habit of keeping your code neat. There are a few different ways you could choose to neaten it up. For example, you could just add a line break with an indent (just hit tab!) after every `--`, i.e.
 
 ```latex title="triangle_neat-1.tex"
 \documentclass[margin=1mm]{standalone}
@@ -112,6 +122,18 @@ This is a fine option for simple diagrams, but if you are going to be referencin
 \end{tikzpicture}
 \end{document}
 ```
+
+:::note
+
+You can also define a new point using nodes!
+
+```latex
+ node(P)[options]{label}
+ ```
+
+ Where `P` is your new point.
+
+:::
 
 ## Adding Markings
 
@@ -148,3 +170,7 @@ Below is an isosceles triangle that I have added markings to:
 \tkzMarkSegments[mark=||](A,B A,C);
 \end{tikzpicture}
 ```
+
+Produces the following:
+
+![Angles](./files/img/isosceles_triangle_light.png#light-mode-only-md)![Angles](./files/img/isosceles_triangle_dark.png#dark-mode-only-md)
