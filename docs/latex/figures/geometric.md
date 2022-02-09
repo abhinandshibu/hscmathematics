@@ -173,4 +173,4 @@ Below is an isosceles triangle that I have added markings to:
 
 Produces the following:
 
-![Angles](./files/img/isosceles_triangle_light.png#light-mode-only-md)![Angles](./files/img/isosceles_triangle_dark.png#dark-mode-only-md)
+![Angles](./files/img/isosceles_triangle_light.png#light-mode-only-sm)![Angles](./files/img/isosceles_triangle_dark.png#dark-mode-only-sm)
