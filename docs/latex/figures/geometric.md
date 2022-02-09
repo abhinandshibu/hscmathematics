@@ -1,3 +1,10 @@
+---
+sidebar_position: 1
+title: Geomtric Figures
+---
+
+import ImportantAdmonition from '@site/src/components/Admonitions/Important';
+
 # Geometric Figures
 
 To draw geometric figures the go-to package is `tikz`.
@@ -19,3 +26,125 @@ Produces the following:
 <iframe src="/latex/geometric-figures_triangle-01.pdf#toolbar=0" width="100%" height="500px"></iframe>
 
 Notice the coordinates of the vertices of the triangle are `(0,0)`, `(0,3)` and `(5,0)`. The `--` in between the coordinates indicates that a line will be drawn between the points. The `-- cycle` at the end is not entirely necessary, but it *does* make the corners neater.
+
+## Customising tikzpictures
+
+Diagrams drawn in tikz can be modified by adding options directly after beginning the `tikzpicture`, i.e.
+
+```latex
+\begin{tikzpicture}[options]
+```
+
+Options include:
+
+* `scale` increases or decreases the size of the diagram, e.g. `scale=.8`
+* `rotate` rotates the image counterclockwise by a specified number of degrees, e.g. `rotate=200`
+* `thick` makes all lines thicker
+
+<ImportantAdmonition>
+
+When appling multiple options you **must** separate them with a comma (`,`)
+
+</ImportantAdmonition>
+
+For example,
+
+```latex title="triangle_customised.tex"
+\documentclass[margin=1mm]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[thick,scale=.9,rotate=200]
+\draw (0,0) -- (0,3) -- (5,0) -- (0,0) -- cycle;
+\end{tikzpicture}
+\end{document}
+```
+
+Some options can also be added to `\draw`, such as:
+
+* `color` to change the colour of the line
+* `dashed` to draw a dashed line
+
+## Adding side lengths
+
+```latex title="triangle_labelled.tex"
+\documentclass[margin=1mm]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[thick,scale=.9,rotate=200]
+\draw (0,0) -- (0,3) node[midway,right]{3 cm} -- (5,0) node[midway,below]{$x$ cm} -- (0,0) node[midway,above left]{5 cm} -- cycle;
+\end{tikzpicture}
+\end{document}
+```
+
+## Neatening up your code
+
+You may have noticed that the code is getting harder to read with it being so long. To make things easier to read it is good practice to get into the habit of keeping your code neat. There are a few different ways you could choose to neaten it up. For example, you could just add in a line break with an indent (just hit tab!) after every `--`, i.e.
+
+```latex title="triangle_neat-1.tex"
+\documentclass[margin=1mm]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[thick,scale=.9,rotate=200]
+\draw (0,0) --
+    (0,3) node[midway,right]{3 cm} --
+    (5,0) node[midway,below]{$x$ cm} --
+    (0,0) node[midway,above left]{5 cm} --
+    cycle;
+\end{tikzpicture}
+\end{document}
+```
+
+This is a fine option for simple diagrams, but if you are going to be referencing a point multiple times (in more elaborate diagrams?) it can also be good to first set your coordinates, and then draw using the specified coordinates. This can be done using `\coordinate` within your tikzpicture. i.e.
+
+```latex title="triangle_neat-2.tex"
+\documentclass[margin=1mm]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[thick,scale=.9,rotate=200]
+\coordinate (A) at (0,0);
+\coordinate (B) at (0,3);
+\coordinate (C) at (5,0);
+\draw (A) --
+    (B) node[midway,right]{3 cm} --
+    (C) node[midway,below]{$x$ cm} --
+    (A) node[midway,above left]{5 cm} --
+    cycle;
+\end{tikzpicture}
+\end{document}
+```
+
+## Adding Markings
+
+Often in geometric questions you want to add markings to indicate that lines are equal in length, parallel, or identify right-angles. You *could* manually go ahead and work out the coordinates to draw a little square or draw a segment perpendicular to a length, but that is too much hassle. Instead the `tkz-euclide` package can do it all for us.
+
+* `\tkzMarkRightAngle` marks right angles
+* `\tkzMarkSegment` can be used to mark line segments at equal or parallel
+* `\tkzLabelAngle` helps label angles with consistent positioning
+
+Below is an isosceles triangle that I have added markings to:
+
+```latex title="isosceles_triangle.tex"
+\documentclass[margin=1mm]{standalone}
+\usepackage{tikz}
+    // highlight-next-line
+\usepackage{tkz-euclide}
+\begin{document}
+\begin{tikzpicture}
+\coordinate (O) at (0,0);
+\coordinate (A) at (0,3);
+\coordinate (B) at (-1,0);
+\coordinate (C) at (1,0);
+\draw (A) -- node[midway,above left]{3 cm}
+    (B) -- node[midway,below]{$x$ cm}
+    (C) -- 
+    (A) -- 
+    cycle;
+\draw[dashed] (O) -- (A);
+    // highlight-next-line
+\tkzMarkRightAngle(A,O,B);
+    // highlight-next-line
+\tkzLabelAngle[pos=.5](A,C,B){$67^\circ$};
+    // highlight-next-line
+\tkzMarkSegments[mark=||](A,B A,C);
+\end{tikzpicture}
+```
