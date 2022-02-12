@@ -185,3 +185,19 @@ img[src$='#dark-mode-only-lg'], img[src$='#light-mode-only-lg'] {
   display: block;
   margin: auto;
 }
+
+.prism-code {
+  counter-reset: line-number;
+}
+
+.prism-code.language-latex .token-line::before {
+  counter-increment: line-number;
+  content: counter(line-number);
+  margin-right: var(--ifm-pre-padding);
+  text-align: right;
+  min-width: 1.5rem;
+  display: inline-block;
+  opacity: .5;
+  position: sticky;
+  left: var(--ifm-pre-padding);
+}
