@@ -13,7 +13,7 @@ function IconMail({width = 18.5, height = 18.5}) {
     width={width}
     height={height}
     aria-hidden="true"
-    viewBox="0 0 100 100"
+    viewBox="0 -10 100 90"
     className={styles.iconPresentation}>
     <g>
       <path

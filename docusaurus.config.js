@@ -113,12 +113,12 @@ const katex = require('./katex-fork.js');
             position: 'left',
             label: 'Extension 2',
           },
-          // {
-          //   type: 'doc',
-          //   docId: 'latex/index',
-          //   position: 'right',
-          //   label: 'LaTeX',
-          // },
+          {
+            type: 'doc',
+            docId: 'latex/index',
+            position: 'right',
+            label: 'LaTeX',
+          },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -196,10 +196,10 @@ const katex = require('./katex-fork.js');
                 </a>
                 `,
               },
-              // {
-              //   label: 'LaTeX',
-              //   to: '/latex',
-              // },
+              {
+                label: 'LaTeX',
+                to: '/latex',
+              },
               {
                 label: 'Blog',
                 to: '/blog',
