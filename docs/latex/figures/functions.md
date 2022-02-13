@@ -318,7 +318,6 @@ To shade the area between curves the first thing to do is to add a second plot a
 \documentclass[margin=1mm]{standalone}
 \usepackage{pgfplots}
     \pgfplotsset{compat=newest}
-    \usepgfplotslibrary{fillbetween}
 \begin{document}
 \begin{tikzpicture}
     \begin{axis}[
@@ -359,12 +358,15 @@ To shade the area between curves the first thing to do is to add a second plot a
 
 ![](./files/img/two_curves_pgfplots_light.png#light-mode-only-lg)![](./files/img/two_curves_pgfplots_dark.png#dark-mode-only-lg)
 
-Next we add a plot which fills between curve1 and curve2. Note you can specify the domain you want highlighted using `soft clip = {domain = min:max}`.
+Next we will add a plot which fills between curve1 and curve2. To do this we need to add the `fillbetween` PGFPlots library to our preamble by adding `\usepgfplotslibrary{fillbetween}`.
+
+Note you can specify the domain you want highlighted using `soft clip = {domain = min:max}`.
 
 ```latex
 \documentclass[margin=1mm]{standalone}
 \usepackage{pgfplots}
     \pgfplotsset{compat=newest}
+    // highlight-next-line
     \usepgfplotslibrary{fillbetween}
 \begin{document}
 \begin{tikzpicture}
