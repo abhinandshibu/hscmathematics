@@ -140,15 +140,15 @@ In my opinion, the cleanest fix for these issues is to adjust axes to be slightl
 \begin{document}
 \begin{tikzpicture}
     \begin{axis}[
-    axis lines=center,
+        axis lines=center,
     // highlight-next-line
-    ymin=-1.5,
+        ymin=-1.5,
     // highlight-next-line
-    xmin=-2.25,
+        xmin=-2.25,
     // highlight-next-line
-    ymax=8.5,
+        ymax=8.5,
     // highlight-next-line
-    xmax=4.25,
+        xmax=4.25,
     ]
         \addplot[
             <->,
@@ -225,25 +225,25 @@ For example, graphing $f(x)=\tan(x)\quad 0<x<2\pi$:
     ]
         \addplot[
     // highlight-next-line
-        domain = 0:pi/2-.1,
-        samples = 200,
+            domain = 0:pi/2-.1,
+            samples = 200,
         ] {tan(\x r)};
         \addplot[
     // highlight-next-line
-        domain = pi/2+.1:3*pi/2-.1,
-        samples = 200,
+            domain = pi/2+.1:3*pi/2-.1,
+            samples = 200,
         ] {tan(\x r)};
         \addplot[
     // highlight-next-line
-        domain = 3*pi/2+.1:2*pi,
-        samples = 200,
+            domain = 3*pi/2+.1:2*pi,
+            samples = 200,
         ] {tan(\x r)};
-\end{axis}
+    \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
 
-![](./files/img/tan_pgfplots_light.png#light-mode-only-md)![](./files/img/tan_pgfplots_dark.png#dark-mode-only-md)
+![](./files/img/tan_pgfplots_light.png#light-mode-only-lg)![](./files/img/tan_pgfplots_dark.png#dark-mode-only-lg)
 
 Notice there are three plots, and the domains have been made to end and start on either side of the asymptotes.
 
@@ -254,7 +254,7 @@ Notice there are three plots, and the domains have been made to end and start on
 To draw a line between points the syntax is as follows:
 
 ```latex
-\addplot[options] coordintes {(x1,y1)(x2,y2)};
+\addplot[options] coordinates {(x1,y1)(x2,y2)};
 ```
 
 As demonstrated below:
@@ -276,40 +276,193 @@ As demonstrated below:
         xticklabels = {$\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$},
     ]
         \addplot[
-        domain = 0:pi/2-.1,
-        samples = 200,
+            domain = 0:pi/2-.1,
+            samples = 200,
         ] {tan(\x r)};
         \addplot[
-        domain = pi/2+.1:3*pi/2-.1,
-        samples = 200,
+            domain = pi/2+.1:3*pi/2-.1,
+            samples = 200,
         ] {tan(\x r)};
         \addplot[
-        domain = 3*pi/2+.1:2*pi,
-        samples = 200,
+            domain = 3*pi/2+.1:2*pi,
+            samples = 200,
         ] {tan(\x r)};
     // highlight-next-line
         \addplot[
     // highlight-next-line
-        dashed,
+            dashed,
     // highlight-next-line
-        samples=50,
+            samples=50,
     // highlight-next-line
-        ]
-    // highlight-next-line
-        coordinates {(pi/2,-6.5)(pi/2,6.5)};
+        ] coordinates {(pi/2,-6.5)(pi/2,6.5)};
     // highlight-next-line
         \addplot[
     // highlight-next-line
-        dashed,
+            dashed,
     // highlight-next-line
-        samples=50,
+            samples=50,
     // highlight-next-line
-        ]
-    // highlight-next-line
-        coordinates {(3*pi/2,-6.5)(3*pi/2,6.5)};
-\end{axis}
+        ] coordinates {(3*pi/2,-6.5)(3*pi/2,6.5)};
+    \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
 
-![](./files/img/tan_asymptotes_pgfplots_light.png#light-mode-only-md)![](./files/img/tan_asymptotes_pgfplots_dark.png#dark-mode-only-md)
+![](./files/img/tan_asymptotes_pgfplots_light.png#light-mode-only-lg)![](./files/img/tan_asymptotes_pgfplots_dark.png#dark-mode-only-lg)
+
+## Shading the area between curves
+
+To shade the area between curves the first thing to do is to add a second plot and name each of them. In the example below I have named them curve1 and curve2 respectively.
+
+```latex
+\documentclass[margin=1mm]{standalone}
+\usepackage{pgfplots}
+    \pgfplotsset{compat=newest}
+    \usepgfplotslibrary{fillbetween}
+\begin{document}
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines = center,
+        axis line style = thick,
+        xlabel = $x$,
+        ylabel = $y$,
+        ymax = 7.5,
+        ymin = -0.0075,
+        xmax = 3.5,
+        xmin = -0.0075,
+        ytick distance = 1,
+        xtick distance = 1,
+    ]
+        \addplot[
+    // highlight-next-line
+            name path = curve1,
+            ->,
+            domain = 0:3.3,
+            samples = 200,
+        ] {x};
+    // highlight-next-line
+        \addplot[
+    // highlight-next-line
+            name path = curve2,
+    // highlight-next-line
+            ->,
+    // highlight-next-line
+            domain = 0:pi,
+    // highlight-next-line
+            samples = 200,
+    // highlight-next-line
+        ] {sin(\x r)*e^x};
+    \end{axis}
+\end{tikzpicture}
+\end{document}
+```
+
+![](./files/img/two_curves_pgfplots_light.png#light-mode-only-lg)![](./files/img/two_curves_pgfplots_dark.png#dark-mode-only-lg)
+
+Next we add a plot which fills between curve1 and curve2. Note you can specify the domain you want highlighted using `soft clip = {domain = min:max}`.
+
+```latex
+\documentclass[margin=1mm]{standalone}
+\usepackage{pgfplots}
+    \pgfplotsset{compat=newest}
+    \usepgfplotslibrary{fillbetween}
+\begin{document}
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines = center,
+        axis line style = thick,
+        xlabel = $x$,
+        ylabel = $y$,
+        ymax = 7.5,
+        ymin = -0.0075,
+        xmax = 3.5,
+        xmin = -0.0075,
+        ytick distance = 1,
+        xtick distance = 1,
+    ]
+        \addplot[
+            name path = curve1,
+            ->,
+            domain = 0:3.3,
+            samples = 200,
+        ] {x};
+        \addplot[
+            name path = curve2,
+            ->,
+            domain = 0:pi,
+            samples = 200,
+        ] {sin(\x r)*e^x};
+    // highlight-next-line
+        \addplot[
+    // highlight-next-line
+            fill = black,
+    // highlight-next-line
+            opacity = 0.25,
+    // highlight-next-line
+        ]
+    // highlight-next-line
+        fill between [
+    // highlight-next-line
+            of = curve1 and curve2,
+    // highlight-next-line
+            soft clip = {
+    // highlight-next-line
+                domain = 0:2.99
+    // highlight-next-line
+            }
+    // highlight-next-line
+        ];
+    \end{axis}
+\end{tikzpicture}
+\end{document}
+```
+
+![](./files/img/two_curves_shaded_pgfplots_light.png#light-mode-only-lg)![](./files/img/two_curves_shaded_pgfplots_dark.png#dark-mode-only-lg)
+
+Finally, you may also want to shade the area between a curve and the $x$-axis. We can do this by adding a plot along the $x$-axis which we already know how to do:
+
+```latex
+\documentclass[margin=1mm]{standalone}
+\usepackage{pgfplots}
+    \pgfplotsset{compat=newest}
+    \usepgfplotslibrary{fillbetween}
+\begin{document}
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines = center,
+        axis line style = thick,
+        xlabel = $x$,
+        ylabel = $f(x)$,
+        xmin = -1.5, xmax = 3.5,
+        ymin = 0, ymax = 21.5,
+        ytick distance = 5,
+        y = 5,
+    ]
+        \addplot[
+            name path = f(x),
+            <->,
+            domain = -1.2:3,
+            samples = 200,
+        ] {e^x};
+    // highlight-next-line
+        \addplot[
+    // highlight-next-line
+            name path = xaxis,
+    // highlight-next-line
+        ] coordinates {(-1,0)(3,0)};
+        \addplot[
+            fill = black,
+            opacity = 0.125,
+        ]
+        fill between [
+            of = f(x) and xaxis,
+            soft clip={
+                domain=1:2
+            }
+        ];
+    \end{axis}
+\end{tikzpicture}
+\end{document}
+```
+
+![](./files/img/shading_xaxis_pgfplots_light.png#light-mode-only-lg)![](./files/img/shading_xaxis_pgfplots_dark.png#dark-mode-only-lg)
