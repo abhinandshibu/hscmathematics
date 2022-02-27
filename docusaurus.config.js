@@ -38,10 +38,12 @@ const katex = require('./katex-fork.js');
         },
         blog: {
           blogTitle: 'Website blog!',
-          blogDescription: 'For weekly updates',
+          blogDescription: 'For updates',
           postsPerPage: 'ALL',
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
+          remarkPlugins: [math],
+          rehypePlugins: [katex, { strict: false }],
         }
       }),
     ],

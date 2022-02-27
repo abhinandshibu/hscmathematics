@@ -59,7 +59,7 @@ To find an unknown side length using right-angled trigonometry you need to know 
 
 :::note
 
-If you know two sides of a right-angled triangle you can use Pythagoras' theorem ($c^2=a^2+b^2$, where $c$ is the hypotenuse) to find the last side.
+If you know two sides of a right-angled triangle you can use Pythagoras' theorem ($a^2+b^2=c^2$, where $c$ is the hypotenuse) to find the last side.
 
 :::
 
@@ -79,7 +79,7 @@ $$
 \tan\theta&=\frac{\text{opp}}{\text{adj}}&&\text{(Choose the appropriate ratio)}\\
 \tan37^\circ&=\frac{x}{11}&&\text{(Substitute)}\\
 11\times\tan37^\circ&=x&&\text{(Multiply both sides by 11)}\\
-x&=8.289...&&\text{(Unrounded value)}\\
+x&=8.289...\\
 x&\approx8.29\text{ mm}&&\text{(Rounded to appropraite number}\\
 &&&\text{of s.f. and include units)}
 \end{aligned}
@@ -102,8 +102,8 @@ $$
 \sin28^\circ&=\frac{3}{n}&&\text{(Substitute)}\\
 n&=\frac{3}{\sin28^\circ}&&\text{(Multiply both sides by $n$ and}\\
 &&&\text{divide by $\sin28^\circ$)}\\
-n&=6.390...&&\text{(Unrounded value)}\\
-n&\approx6.39&&\text{(Rounded to appropraite numberof d.p.)}
+n&=6.390...\\
+n&\approx6.39&&\text{(Rounded to appropraite number of d.p.)}
 \end{aligned}
 $$
 
@@ -141,15 +141,103 @@ url={'https://www.youtube.com/watch?v=j9D7Ooyyr5M'}
 
 </ExampleBox>
 
-<!-- ## Finding Angles
+## Finding Angles
 
 To find an unknown angle using right-angled trigonometry you need to know at least two side lengths. Using the known sides, choose the appropriate ratio and substitute in your values. Solve the equation to find the unknown angle.
 
 :::note
 
-If you know an acute angle in a right-angled triangle you can use angle sum of a triangle ($180^\circ$) to find the last angle.
+If you know two angles in a triangle you can use angle sum ($180^\circ$) to find the last angle.
 
-::: -->
+:::
+
+<ExampleBox>
+
+<Tabs>
+<TabItem value="ex3" label="Example 3" default>
+
+Find the value of $\theta$ correct to 3 s.f.
+
+![Angles](./files/img/right-angled-ex3_light.png#light-mode-only-sm)![Angles](./files/img/right-angled-ex3_dark.png#dark-mode-only-sm)
+
+<SolutionAdmonition>
+
+$$
+\begin{aligned}
+\sin\theta&=\frac{\text{opp}}{\text{hyp}}&&\text{(Choose the appropriate ratio)}\\
+\sin\theta&=\frac{3}{7}&&\text{(Substitute)}\\
+\theta&=\sin^{-1}\left(\frac{3}{7}\right)&&{\text{\htmlClass{casio}{qj3P7)=}}}\\
+\theta&=25.3769...\\
+\theta&\approx25.4^\circ&&\text{(Rounded to appropraite number}\\
+&&&\text{of s.f. and include units)}
+\end{aligned}
+$$
+
+</SolutionAdmonition>
+
+</TabItem>
+<TabItem value="ex4" label="Example 4">
+
+Find the value of $\phi$ correct to the nearest minute.
+
+![Angles](./files/img/right-angled-ex4_light.png#light-mode-only-sm)![Angles](./files/img/right-angled-ex4_dark.png#dark-mode-only-sm)
+
+<SolutionAdmonition>
+
+<ImportantAdmonition>
+
+Always ensure your units are consistent.
+
+</ImportantAdmonition>
+
+$$
+\begin{aligned}
+\cos\phi&=\frac{\text{adj}}{\text{hyp}}&&\text{(Choose the appropriate ratio)}\\
+\cos\phi&=\frac{23\text{ mm}}{70\text{ mm}}&&\text{(Substitute and ensure consistent units)}\\
+\phi&=\cos^{-1}\left(\frac{23}{70}\right)&&{\text{\htmlClass{casio}{qk23P70)=}}}\\
+\phi&=70.8179...\\
+\phi&=70^\circ\,49'\,4.476...''&&{\text{\htmlClass{casio}{x}}}\\
+\phi&\approx70^\circ\,49'&&\text{(Rounded nearest minute)}
+\end{aligned}
+$$
+
+:::note
+
+Minutes and seconds are out of 60. This means they round up from 30.
+
+Had the answer been $70^\circ\,49'\,34.476...$ then it would have rounded up to $70^\circ\,50'$.
+
+:::
+
+</SolutionAdmonition>
+
+</TabItem>
+
+<!-- <TabItem value="practice" label=<span><IconPractice/> Practice</span>>
+
+This is a banana 🍌
+
+<HSAButtons
+hint={<div>
+
+$hint$
+
+</div>}
+answer={<div>
+
+answer
+
+</div>}
+url={'https://www.youtube.com/watch?v=j9D7Ooyyr5M'}
+/>
+
+</TabItem> -->
+
+</Tabs>
+
+</ExampleBox>
+
+
 
 <!-- 
 
