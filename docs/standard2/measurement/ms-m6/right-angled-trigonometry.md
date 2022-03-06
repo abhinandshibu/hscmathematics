@@ -32,7 +32,7 @@ Trigonometry is used to calculate unknown side lengths and angles of triangles.
 
 Before you can perform any trigonometric calculations you need to be able to identify the sides of a right-angled triangle. The sides are labeled relative to the position of the given angle as shown below:
 
-![Angles](./files/img/labelled-right-triangle_light.png#light-mode-only-md)![Angles](./files/img/labelled-right-triangle_dark.png#dark-mode-only-md)
+![](./files/img/labelled-right-triangle_light.png#light-mode-only-md)![](./files/img/labelled-right-triangle_dark.png#dark-mode-only-md)
 
 <ImportantAdmonition>
 
@@ -70,7 +70,7 @@ If you know two sides of a right-angled triangle you can use Pythagoras' theorem
 
 Find the value of $x$ rounded to 3 significant figures.
 
-![Angles](./files/img/right-angled-ex1_light.png#light-mode-only-sm)![Angles](./files/img/right-angled-ex1_dark.png#dark-mode-only-sm)
+![](./files/img/right-angled-ex1_light.png#light-mode-only-sm)![](./files/img/right-angled-ex1_dark.png#dark-mode-only-sm)
 
 <SolutionAdmonition>
 
@@ -92,7 +92,7 @@ $$
 
 Find the value of $n$ rounded to 2 decimal places.
 
-![Angles](./files/img/right-angled-ex2_light.png#light-mode-only-sm)![Angles](./files/img/right-angled-ex2_dark.png#dark-mode-only-sm)
+![](./files/img/right-angled-ex2_light.png#light-mode-only-sm)![](./files/img/right-angled-ex2_dark.png#dark-mode-only-sm)
 
 <SolutionAdmonition>
 
@@ -158,7 +158,7 @@ If you know two angles in a triangle you can use angle sum ($180^\circ$) to find
 
 Find the value of $\theta$ correct to 3 s.f.
 
-![Angles](./files/img/right-angled-ex3_light.png#light-mode-only-sm)![Angles](./files/img/right-angled-ex3_dark.png#dark-mode-only-sm)
+![](./files/img/right-angled-ex3_light.png#light-mode-only-sm)![](./files/img/right-angled-ex3_dark.png#dark-mode-only-sm)
 
 <SolutionAdmonition>
 
@@ -180,7 +180,7 @@ $$
 
 Find the value of $\phi$ correct to the nearest minute.
 
-![Angles](./files/img/right-angled-ex4_light.png#light-mode-only-sm)![Angles](./files/img/right-angled-ex4_dark.png#dark-mode-only-sm)
+![](./files/img/right-angled-ex4_light.png#light-mode-only-sm)![](./files/img/right-angled-ex4_dark.png#dark-mode-only-sm)
 
 <SolutionAdmonition>
 
