@@ -215,25 +215,25 @@ const katex = require('./katex-fork.js');
         ],
         // copyright: `© ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
-      colorMode: {
-        defaultMode: 'light',
-        // Dark/light switch icon options
-        switchConfig: {
-          // Icon for the switch while in dark mode
-          darkIcon: 'light_mode',
+      // colorMode: {
+      //   defaultMode: 'light',
+      //   // Dark/light switch icon options
+      //   switchConfig: {
+      //     // Icon for the switch while in dark mode
+      //     darkIcon: 'light_mode',
   
-          // CSS to apply to dark icon
-          darkIconStyle: {
-            fontFamily: 'Material Icons',
-          },
+      //     // CSS to apply to dark icon
+      //     darkIconStyle: {
+      //       fontFamily: 'Material Icons',
+      //     },
   
-          lightIcon: 'dark_mode',
+      //     lightIcon: 'dark_mode',
   
-          lightIconStyle: {
-            fontFamily: 'Material Icons',
-          },
-        },
-      },
+      //     lightIconStyle: {
+      //       fontFamily: 'Material Icons',
+      //     },
+      //   },
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

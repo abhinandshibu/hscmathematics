@@ -226,80 +226,226 @@ img[src$='#dark-mode-only-lg'], img[src$='#light-mode-only-lg'] {
 //   max-width: 200px;
 // }
 
-.showcase {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.texcard {
-  margin: 10px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  width: 280px;
-  transition: all var(--ifm-transition-fast)
-  var(--ifm-transition-timing-default);
-}
-.texcard:hover {
-  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
-}
-// @keyframes levitate-in {
-//   from {
-//     transform: translate(0, -4px);
-//   }
-//   to {
-//     transform: translate(0, 0px);
-//   }
+// .showcase {
+//   display: flex;
+//   justify-content: space-evenly;
+//   flex-wrap: wrap;
 // }
-// @keyframes levitate {
-//   0% {
-//     transform: translate(0, 0px);
-//   }
-//   50% {
-//     transform: translate(0, -9px);
-//   }
-//   100% {
-//     transform: translate(0, 0px);
-//   }
+// .texcard {
+//   margin: 10px;
+//   background-color: #fff;
+//   border-radius: 10px;
+//   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+//   overflow: hidden;
+//   width: 280px;
+//   transition: all var(--ifm-transition-fast)
+//   var(--ifm-transition-timing-default);
 // }
-.texcard-header img {
-  width: 100%;
-  height: 200px;
-  object-fit: contain;
-}
-.texcard-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 1rem;
-}
-html[data-theme='dark'] .texcard {
-  margin: 10px;
-  background-color: #000;
-  border-radius: 10px;
-  box-shadow: 0 2px 20px rgba(1, 1, 1, 0.2);
-  overflow: hidden;
-  width: 280px;
-}
+// .texcard:hover {
+//   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+// }
+// html[data-theme='dark'] .texcard {
+//   margin: 10px;
+//   background-color: #000;
+//   border-radius: 10px;
+//   box-shadow: 0 2px 20px rgba(1, 1, 1, 0.2);
+//   overflow: hidden;
+//   width: 280px;
+// }
+// .texcard-body {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: flex-start;
+//   padding: 1rem;
+// }
+// .texcard-header img {
+//   width: 100%;
+//   height: 200px;
+//   object-fit: contain;
+// }
 
-// .tag {
-//   background: #cccccc;
-//   border-radius: 50px;
-//   font-size: 12px;
-//   margin: 0;
-//   color: #fff;
-//   padding: 2px 10px;
-//   text-transform: uppercase;
+// .showcase {
+//   display: flex;
+//   justify-content: space-evenly;
+//   flex-wrap: wrap;
+// }
+
+// .showcase .texcard {
+//   margin: 10px;
+//   background-color: #fff;
+//   border-radius: 10px;
+//   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+//   overflow: visible;
+//   width: 280px;
+//   transition: all var(--ifm-transition-fast)
+//   var(--ifm-transition-timing-default);
+// }
+
+// .showcase .texcard:hover {
+//   transform: translate(-50%, -50%);
 //   cursor: pointer;
+//   transition: .25s cubic-bezier(0.25, 0, 0, 1);
 // }
-// .tag-teal {
-//   background-color: #47bcd4;
+
+// .showcase .img {
+//   width: 100%;
+//   height: 200px;
+//   object-fit: scale-down;
+//   overflow: hidden;
 // }
-// .tag-purple {
-//   background-color: #5e76bf;
+
+// .showcase .multi-button .texbutton {
+//   color: var(--ifm-navbar-link-color);
+//   cursor: pointer;
+//   user-select: none;
+//   width: 28px;
+//   height: 28px;
+//   border: 2px solid var(--ifm-color-primary);
+//   border-radius: 50%;
+//   background-color: var(--ifm-color-emphasis-200);
+//   transition: all var(--ifm-transition-fast)
+//   var(--ifm-transition-timing-default);
 // }
-// .tag-pink {
-//   background-color: #cd5b9f;
+
+// .showcase .multi-button .texbutton:hover {
+//   outline: none;
+//   border-color: var(--ifm-color-primary-darkest);
+//   box-shadow: 0 0 10px var(--ifm-color-primary-darkest);
+//   transform: translate(-50%, -50%);
+//   cursor: pointer;
+//   transition: .25s cubic-bezier(0.25, 0, 0, 1);
 // }
+
+// .texcard:hover {
+//   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+// }
+
+// html[data-theme='dark'] .texcard {
+//     margin: 10px;
+//     background-color: #000;
+//     border-radius: 10px;
+//     box-shadow: 0 2px 20px rgba(1, 1, 1, 0.2);
+//     overflow: hidden;
+//     width: 280px;
+// }
+
+// html[data-theme='dark'] .texcard:hover {
+//   box-shadow: 0 6px 30px rgba(255, 255, 255, 0.3);
+// }
+
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  .texcard {
+    position: relative;
+    margin: 1.25rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    width: calc(100% - 38px);
+    height: 200px;
+    transition: all var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+    &:hover {
+      box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+    }
+      .multi-button {
+          z-index:100;
+          position: absolute;
+          top:1.25rem;
+          right:1.25rem;
+          border-radius:100%;
+          width:0rem;
+          height:0rem;
+          transform: translate(45%, -45%);
+          transition: .25s cubic-bezier(0.25, 0, 0, 1);
+          opacity: 0;
+          .texbutton {
+              display: grid;
+              place-items: center;
+              position: absolute;
+              width:2rem;
+              height:2rem;
+              border:none;
+              border-radius:100%;
+              background: var(--ifm-color-primary-lightest);
+              color: white;
+              transform: translate(45%, -45%);
+              cursor: pointer;
+              transition: var(--ifm-transition-fast) cubic-bezier(0.25, 0, 0, 1);
+              box-shadow:0 0 0rem -.25rem rgba(0,0,0,0.2);
+              &:hover {
+                  background: white;
+                  color: var(--ifm-color-primary);
+                  box-shadow:0 0 1rem -.25rem rgba(0,0,0,0.4);
+              }
+              &:first-child:nth-last-child(1) { //If there is 1 child
+                  right:25%;
+                  top:25%;
+              }
+              &:first-child:nth-last-child(2),
+              &:first-child:nth-last-child(2) ~ * { //If there are 2 children
+                  &:nth-child(1) {
+                      right:37.5%;
+                      top:18.75%;
+                  }
+                  &:nth-child(2) {
+                      right:18.75%;
+                      top:37.5%;
+                  }
+              }
+              &:first-child:nth-last-child(3),
+              &:first-child:nth-last-child(3) ~ * { //If there are 3 children
+                  &:nth-child(1) {
+                      right:50%;
+                      top:15.625%;
+                  }
+                  &:nth-child(2) {
+                      right:25%;
+                      top:25%;
+                  }
+                  &:nth-child(3) {
+                      right:15.625%;
+                      top:50%;
+                  }
+              }
+              &:first-child:nth-last-child(4), //If there are 4 children, if first child is also 4th item from bottom get self, and
+              &:first-child:nth-last-child(4) ~ * { //If there are 4 children, if first child is also 4th item from bottom get siblings
+                  &:nth-child(1) {
+                      right:62.5%;
+                      top:18.75%;
+                  }
+                  &:nth-child(2) {
+                      right:37.5%;
+                      top:18.75%;
+                  }
+                  &:nth-child(3) {
+                      right:18.75%;
+                      top:37.5%;
+                  }
+                  &:nth-child(4) {
+                      right:18.75%;
+                      top:62.5%;
+                  }
+              }
+          }
+      }
+      .teximg {
+        object-fit: contain;
+        height: auto;
+        max-height: 100%;
+        width: auto;
+        max-width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &:hover .multi-button, .multi-button:focus-within { //Hover or a button inside is focused
+          width:10rem;
+          height:10rem;
+          opacity: 1;
+      }
+  }
+}

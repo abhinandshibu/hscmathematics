@@ -1,9 +1,11 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Geometric Figures
 ---
 
 import ImportantAdmonition from '@site/src/components/Admonitions/Important';
+import TexCard from '@site/src/components/LatexGallery';
+
 
 # Geometric Figures
 
@@ -175,63 +177,3 @@ Below is an isosceles triangle that I have added markings to:
 Produces the following:
 
 ![](./files/img/isosceles_triangle_light.png#light-mode-only-sm)![](./files/img/isosceles_triangle_dark.png#dark-mode-only-sm)
-
-<!-- ## Showcase -->
-
-<!-- 
-<div class="showcase">
-  <div class="texcard">
-    <div class="texcard-header">
-      <img src="http://localhost:3000/assets/images/triangle_labelled_light-1590ced5609dfe094416d8b894b81db6.png#light-mode-only-md"/>
-      <img src="http://localhost:3000/assets/images/triangle_labelled_dark-8342660aae453cd82e531bf538ee185a.png#dark-mode-only-md"/>
-    </div>
-    <div class="texcard-body">
-        <button class="button button--primary button--block">Code</button>
-    </div>
-  </div>
-  <div class="texcard">
-    <div class="texcard-header">
-      <img src="http://localhost:3000/assets/images/isosceles_triangle_light-efc3326227302bdbca4910be1202259f.png#light-mode-only-sm"/>
-      <img src="http://localhost:3000/assets/images/isosceles_triangle_dark-fc02ae29de24da4fbf1940e4f4c5b7e5.png#dark-mode-only-sm"/>
-    </div>
-    <div class="texcard-body">
-        <button class="button button--primary button--block">Code</button>
-    </div>
-  </div>
-  <div class="texcard">
-    <div class="texcard-header">
-      <img src="http://localhost:3000/assets/images/tan_asymptotes_pgfplots_light-056cf26dfa6ceeecfb001aec5527306f.png#light-mode-only-lg"/>
-      <img src="http://localhost:3000/assets/images/tan_asymptotes_pgfplots_dark-bf3898ca0adeeb14b74613958c38a0a3.png#dark-mode-only-lg"/>
-    </div>
-    <div class="texcard-body">
-        <button class="button button--primary button--block">Code</button>
-    </div>
-  </div>
-  <div class="texcard">
-    <div class="texcard-header">
-      <img src="http://localhost:3000/assets/images/triangle_labelled_light-1590ced5609dfe094416d8b894b81db6.png#light-mode-only-md"/>
-      <img src="http://localhost:3000/assets/images/triangle_labelled_dark-8342660aae453cd82e531bf538ee185a.png#dark-mode-only-md"/>
-    </div>
-    <div class="texcard-body">
-        <button class="button button--primary button--block">Code</button>
-    </div>
-  </div>
-  <div class="texcard">
-    <div class="texcard-header">
-      <img src="http://localhost:3000/assets/images/isosceles_triangle_light-efc3326227302bdbca4910be1202259f.png#light-mode-only-sm"/>
-      <img src="http://localhost:3000/assets/images/isosceles_triangle_dark-fc02ae29de24da4fbf1940e4f4c5b7e5.png#dark-mode-only-sm"/>
-    </div>
-    <div class="texcard-body">
-        <button class="button button--primary button--block">Code</button>
-    </div>
-  </div>
-  <div class="texcard">
-    <div class="texcard-header">
-      <img src="http://localhost:3000/assets/images/tan_asymptotes_pgfplots_light-056cf26dfa6ceeecfb001aec5527306f.png#light-mode-only-lg"/>
-      <img src="http://localhost:3000/assets/images/tan_asymptotes_pgfplots_dark-bf3898ca0adeeb14b74613958c38a0a3.png#dark-mode-only-lg"/>
-    </div>
-    <div class="texcard-body">
-        <button class="button button--primary button--block">Code</button>
-    </div>
-  </div>
-</div> -->
