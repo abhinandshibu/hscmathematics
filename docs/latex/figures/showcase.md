@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Showcase
+hide_table_of_contents: true
 ---
 
 import IconExternalLink from '@theme/IconExternalLink';
