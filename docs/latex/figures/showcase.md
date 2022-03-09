@@ -27,8 +27,32 @@ img_dark={"/latex/showcase/functions-01_dark.png#dark-mode-only-lg"}
 
 <TexCard
 overleaf={"https://www.overleaf.com/read/xdjmwdxmwhmv"}
-img_light={"/latex/showcase/triangles-01_light.png#light-mode-only-lg"}
-img_dark={"/latex/showcase/triangles-01_dark.png#dark-mode-only-lg"}
+img_light={"/latex/showcase/trigonometry-01_light.png#light-mode-only-lg"}
+img_dark={"/latex/showcase/trigonometry-01_dark.png#dark-mode-only-lg"}
+/>
+
+<TexCard
+overleaf={"https://www.overleaf.com/read/jcqhxrgprndh"}
+img_light={"/latex/showcase/integration-01_light.png#light-mode-only-lg"}
+img_dark={"/latex/showcase/integration-01_dark.png#dark-mode-only-lg"}
+/>
+
+<TexCard
+overleaf={"https://www.overleaf.com/read/qqgbkbssqktz"}
+img_light={"/latex/showcase/unit-circle-01_light.png#light-mode-only-lg"}
+img_dark={"/latex/showcase/unit-circle-01_dark.png#dark-mode-only-lg"}
+/>
+
+<TexCard
+overleaf={"https://www.overleaf.com/read/tysnfnqtmbsc"}
+img_light={"/latex/showcase/unit-circle-02_light.png#light-mode-only-lg"}
+img_dark={"/latex/showcase/unit-circle-02_dark.png#dark-mode-only-lg"}
+/>
+
+<TexCard
+overleaf={"https://www.overleaf.com/read/qhdqcrrsdcsh"}
+img_light={"/latex/showcase/pythagoras-01_light.png#light-mode-only-lg"}
+img_dark={"/latex/showcase/pythagoras-01_dark.png#dark-mode-only-lg"}
 />
 
 </div>
