@@ -118,6 +118,7 @@ html[data-theme='dark'] .showcase {
   .showcase {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-auto-flow: dense;
     .texcard {
       position: relative;
       margin: 1.25rem;
@@ -130,6 +131,9 @@ html[data-theme='dark'] .showcase {
       var(--ifm-transition-timing-default);
       &:hover {
         box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+        // width: calc(100% - 38px);
+        // height: 400px;
+        // grid-column-end: span 2;
       }
         .multi-button {
             z-index:100;

@@ -9,7 +9,7 @@ import TexCard from '@site/src/components/LatexGallery';
 
 # Showcase
 
-Here you can see examples of diagrams created using $\LaTeX$. You can download them as images and open them up in <a href="https://www.overleaf.com/"><nobr>Overleaf<IconExternalLink /></nobr></a>.
+Here you can see examples of diagrams created using $\LaTeX$. You can download them as images or open them up in <a href="https://www.overleaf.com/"><nobr>Overleaf<IconExternalLink /></nobr></a>.
 
 <div class="showcase">
 
@@ -65,6 +65,12 @@ img_dark={"/latex/showcase/circle-geometry-02_dark.png#dark-mode-only-lg"}
 overleaf={"https://www.overleaf.com/read/wsxncfjxhhqj"}
 img_light={"/latex/showcase/vectors-01_light.png#light-mode-only-lg"}
 img_dark={"/latex/showcase/vectors-01_dark.png#dark-mode-only-lg"}
+/>
+
+<TexCard
+overleaf={"https://www.overleaf.com/read/xtmzzvyxgvqv"}
+img_light={"/latex/showcase/shapes-01_light.png#light-mode-only-lg"}
+img_dark={"/latex/showcase/shapes-01_dark.png#dark-mode-only-lg"}
 />
 
 </div>
