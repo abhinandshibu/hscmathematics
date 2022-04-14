@@ -70,7 +70,7 @@ import IconExternalLink from '@theme/IconExternalLink';
   * recognise the shape and features of the graph of $y=|ax+b|$ and hence sketch the graph
 * solve simple absolute value equations of the form $|ax+b|=k$ both algebraically and graphically
 * given the graph of $y=f(x)$, sketch $y=-f(x)$ and $f(-x)$ and $y=-f(-x)$ using reflections in the $x$ and $y$-axes
-* recognise features of the graphs of $x^2+y^2=r^2$ and $(x-a)^2+(y-b)^2=r^2, including their circular shapes, their centres and their radii
+* recognise features of the graphs of $x^2+y^2=r^2$ and $(x-a)^2+(y-b)^2=r^2$, including their circular shapes, their centres and their radii
   * derive the equation of a circle, centre the origin, by considering Pythagoras’ theorem and recognise that a circle is not a function
   * transform equations of the form $x^2+y^2+ax+by+c=0$ into the form $(x-a)^2+(y-b)^2=r^2$, by completing the square
   * sketch circles given their equations and find the equation of a circle from its graph

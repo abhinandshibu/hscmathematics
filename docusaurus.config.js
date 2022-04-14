@@ -7,7 +7,7 @@ const katex = require('./katex-fork.js');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'HSC Mathematics',
-  tagline: 'Updated Weekly',
+  tagline: 'Updated Regularly',
   url: 'https://www.hscmathematics.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
