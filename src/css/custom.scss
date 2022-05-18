@@ -339,3 +339,10 @@ img[src$='#dark-mode-only-lg'], img[src$='#light-mode-only-lg'] {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   margin-right: 1rem;
 }
+
+:root {
+  --docusaurus-highlighted-code-line-bg: rgb(219, 210, 237);
+}
+[data-theme='dark'] {
+  --docusaurus-highlighted-code-line-bg: rgb(109, 66, 189);
+}

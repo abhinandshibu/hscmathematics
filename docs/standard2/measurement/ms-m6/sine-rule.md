@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Sine Rule
+draft: true
 ---
 
 import Tabs from '@theme/Tabs';

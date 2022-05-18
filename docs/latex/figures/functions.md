@@ -468,3 +468,87 @@ Finally, you may also want to shade the area between a curve and the $x$-axis. W
 ```
 
 ![](./files/img/shading_xaxis_pgfplots_light.png#light-mode-only-lg)![](./files/img/shading_xaxis_pgfplots_dark.png#dark-mode-only-lg)
+
+## Marking Points
+
+TikZ and PGFPlots can be combined. You are able to add points to a graph using `\node` from TikZ. The syntax is as follows:
+
+```latex
+\node[options] at (x,y) {label};
+```
+
+Note that when using nodes to mark a point you will most commonly be adding a label into the options, and leaving the curly braces empty. The label inside the curly braces is if you want to write inside the node. The most common options for marking and labelling a point using a TikZ node is as follows:
+
+```latex
+\node[
+    label={angle:{label}},
+    circle,
+    fill = black,
+    inner sep=1pt
+]
+```
+
+Where:
+
+* `angle` is the number of degrees from the $x$-axis. (think unit circle).
+* `label` is your label. Note you can use `$` `$` to type in mathematics.
+* `circle` is the shape of the marking
+* `fill` changes the colour
+* `inner sep` indicates the separation of the text inside of the node to boundary. Note unless there is a label inside the curly braces this will only change the size of the marking.
+
+For example,
+
+```latex
+\documentclass[margin=1mm]{standalone}
+\usepackage{pgfplots}
+    \pgfplotsset{compat=newest}
+    \usepgfplotslibrary{fillbetween}
+\begin{document}
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines = center,
+        axis line style = thick,
+        xlabel = $x$,
+        ylabel = $f(x)$,
+        xmin = -1.5, xmax = 3.5,
+        ymin = 0, ymax = 21.5,
+        ytick distance = 5,
+        y = 5,
+    ]
+        \addplot[
+            name path = f(x),
+            <->,
+            domain = -1.2:3,
+            samples = 200,
+        ] {e^x};
+        \addplot[
+            name path = xaxis,
+        ] coordinates {(-1,0)(3,0)};
+        \addplot[
+            fill = black,
+            opacity = 0.125,
+        ]
+        fill between [
+            of = f(x) and xaxis,
+            soft clip={
+                domain=1:2
+            }
+        ];
+// highlight-next-line
+        \node[
+// highlight-next-line
+            label={90:{$(1,e)$}},
+// highlight-next-line
+            circle,
+// highlight-next-line
+            fill = black,
+// highlight-next-line
+            inner sep=1pt
+// highlight-next-line
+        ] at (1,e^1) {};
+    \end{axis}
+\end{tikzpicture}
+\end{document}
+```
+
+![](./files/img/pgfplots_labelling_light.png#light-mode-only-lg)![](./files/img/pgfplots_labelling_dark.png#dark-mode-only-lg)
